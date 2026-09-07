@@ -9,6 +9,9 @@ async function render(data){
   await drawMap(states);
   const ranked=[...data.centers].sort((a,b)=>b.rate-a.rate||b.total-a.total||a.name.localeCompare(b.name,'de-DE')).slice(0,10);
   $('#leaderboard').innerHTML=ranked.map((c,i)=>`<li><span class="rank">${i+1}</span><span class="place">${esc(c.name)}<small>${c.sc?'SC '+esc(c.sc)+' · ':''}${c.activated}/${c.total} aktiviert</small></span><span class="rate">${pct(c.rate)}</span></li>`).join('');
+  const perfect=data.centers.filter(c=>(String(c.sc).startsWith('D_')||c.sc==='n.a.')&&c.total>0&&c.activated===c.total).sort((a,b)=>a.name.localeCompare(b.name,'de-DE'));
+  $('#perfectCount').textContent=`${perfect.length} Servicecenter`;
+  $('#perfectCenters').innerHTML=perfect.map(c=>`<article class="perfect-card"><span class="perfect-check">✓</span><span><strong>${esc(c.name.replace(/^EUROMASTER\s+/i,''))}</strong><small>${esc(c.sc)} · ${c.total} ${c.total===1?'Person':'Personen'}</small></span><b>100 %</b></article>`).join('');
   const names=[...new Set(data.centers.map(c=>c.state))].sort((a,b)=>a.localeCompare(b,'de-DE'));$('#stateFilter').innerHTML+=[...names].map(s=>`<option>${esc(s)}</option>`).join('');
   function list(){const q=$('#search').value.trim().toLowerCase();const st=$('#stateFilter').value;const rows=data.centers.filter(c=>(!st||c.state===st)&&(!q||`${c.name} ${c.sc}`.toLowerCase().includes(q))).sort((a,b)=>b.rate-a.rate||a.name.localeCompare(b.name,'de-DE'));$('#centerList').innerHTML=rows.length?rows.map(c=>`<div class="center-row"><span class="center-title">${esc(c.name)}<small>${c.sc?'SC '+esc(c.sc)+' · ':''}${c.activated} von ${c.total} aktiviert</small></span><span class="mini-progress"><i style="width:${c.rate}%;background:${color(c.rate)}"></i></span><span class="center-rate">${pct(c.rate)}</span></div>`).join(''):'<p class="empty">Kein Standort gefunden.</p>'}
   $('#search').addEventListener('input',list);$('#stateFilter').addEventListener('change',list);list();
@@ -18,9 +21,10 @@ async function drawMap(states){
   const aliases={'Baden-Württemberg':'Baden-Wurttemberg','Mecklenburg-Vorpommern':'Mecklenburg Vorpommern','Thüringen':'Thuringen'};
   const byName=Object.fromEntries(states.map(s=>[s.name,s]));
   const rings=[];geo.features.forEach(f=>walk(f.geometry.coordinates,rings));
-  const points=rings.flat(),minX=Math.min(...points.map(p=>p[0])),maxX=Math.max(...points.map(p=>p[0])),minY=Math.min(...points.map(p=>p[1])),maxY=Math.max(...points.map(p=>p[1]));
+  const longitudeFactor=Math.cos(51*Math.PI/180);
+  const normalized=rings.flat().map(([x,y])=>[x*longitudeFactor,y]),minX=Math.min(...normalized.map(p=>p[0])),maxX=Math.max(...normalized.map(p=>p[0])),minY=Math.min(...normalized.map(p=>p[1])),maxY=Math.max(...normalized.map(p=>p[1]));
   const pad=32,w=620,h=720,scale=Math.min((w-2*pad)/(maxX-minX),(h-2*pad)/(maxY-minY));
-  const project=([x,y])=>[pad+(x-minX)*scale,h-pad-(y-minY)*scale],svg=$('#germanyMap'),tip=$('#mapTooltip');
+  const project=([x,y])=>[pad+(x*longitudeFactor-minX)*scale,h-pad-(y-minY)*scale],svg=$('#germanyMap'),tip=$('#mapTooltip');
   for(const f of geo.features){
     const state=byName[aliases[f.properties.name]||f.properties.name]||{name:f.properties.name,rate:0,activated:0,total:0};
     const local=[];walk(f.geometry.coordinates,local);

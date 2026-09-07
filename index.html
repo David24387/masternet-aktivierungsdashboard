@@ -16,14 +16,14 @@
     <section class="intro">
       <p class="eyebrow">MASTERNET-CHALLENGE</p>
       <h1>Gemeinsam bringen wir<br>jeden Standort ins Masternet.</h1>
-      <p class="lede">Wo steht euer Servicecenter? Die Übersicht zeigt den aktuellen Aktivierungsstand – jede Woche neu.</p>
+      <p class="lede">Wo stehen unsere Standorte und Teams? Die Übersicht zeigt den Aktivierungsstand aller Personen im Export – jede Woche neu.</p>
     </section>
 
     <section class="kpis" aria-label="Kennzahlen">
       <article class="kpi kpi-primary"><span>Aktivierungsquote</span><strong id="overallRate">–</strong><div class="progress"><i id="overallBar"></i></div></article>
       <article class="kpi"><span>Aktiviert</span><strong id="activated">–</strong><small>von <b id="total">–</b> Mitarbeitenden</small></article>
       <article class="kpi"><span>Noch nicht registriert</span><strong id="pending">–</strong><small>gemeinsam schaffen wir 100 %</small></article>
-      <article class="kpi"><span>Servicecenter</span><strong id="centerCount">–</strong><small>im aktuellen Vergleich</small></article>
+      <article class="kpi"><span>Standortzuordnungen</span><strong id="centerCount">–</strong><small>inklusive zentraler Bereiche</small></article>
     </section>
 
     <section class="panel heat-section">
@@ -40,13 +40,21 @@
       </div>
     </section>
 
+    <section class="panel perfect-section">
+      <div class="section-head">
+        <div><p class="eyebrow">100 % ERREICHT</p><h2>Diese Servicecenter sind vollständig aktiviert</h2></div>
+        <strong id="perfectCount" class="perfect-count">–</strong>
+      </div>
+      <div id="perfectCenters" class="perfect-grid"></div>
+    </section>
+
     <section class="split">
       <article class="panel leaderboard">
-        <div class="section-head"><div><p class="eyebrow">SPITZENGRUPPE</p><h2>Top 10 Servicecenter</h2></div></div>
+        <div class="section-head"><div><p class="eyebrow">SPITZENGRUPPE</p><h2>Top 10 Standorte</h2></div></div>
         <ol id="leaderboard"></ol>
       </article>
       <article class="panel">
-        <div class="section-head"><div><p class="eyebrow">ALLE STANDORTE</p><h2>Center-Übersicht</h2></div></div>
+        <div class="section-head"><div><p class="eyebrow">ALLE STANDORTE</p><h2>Standortübersicht</h2></div></div>
         <div class="filters">
           <label><span class="sr-only">Standort suchen</span><input id="search" type="search" placeholder="Standort oder SC-Nummer suchen"></label>
           <label><span class="sr-only">Bundesland wählen</span><select id="stateFilter"><option value="">Alle Bundesländer</option></select></label>
