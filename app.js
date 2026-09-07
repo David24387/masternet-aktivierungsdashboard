@@ -6,7 +6,8 @@ async function render(data){
   $('#overallRate').textContent=pct(data.summary.rate);$('#overallBar').style.width=`${data.summary.rate}%`;
   $('#activated').textContent=fmt(data.summary.activated);$('#pending').textContent=fmt(data.summary.pending);$('#total').textContent=fmt(data.summary.total);$('#centerCount').textContent=fmt(comparable.length);
   if(data.mapping?.unmatchedPartnerUsers)$('#mappingNote').textContent=`${data.mapping.matchedPartnerUsers} von ${data.mapping.partnerUsers} Partnerkonten sind bereits Partnerstandorten zugeordnet. ${data.mapping.unmatchedPartnerUsers} Konten bleiben bis zur eindeutigen Klärung außerhalb des Standortvergleichs.`;
-  const regionName=c=>c.region==='AT'?'Österreich':c.state;
+  const austrianStates=new Set(['Österreich','Wien','Niederösterreich','Oberösterreich','Burgenland','Kärnten','Salzburg','Steiermark','Tirol','Vorarlberg']);
+  const regionName=c=>c.region==='AT'||austrianStates.has(c.state)?'Österreich':c.state;
   const states=Object.values(comparable.filter(c=>regionName(c)&&regionName(c)!=='Nicht zugeordnet').reduce((a,c)=>{const k=regionName(c);a[k]??={name:k,activated:0,total:0,centers:0};a[k].activated+=c.activated;a[k].total+=c.total;a[k].centers++;return a},{})).map(s=>({...s,rate:s.total?s.activated/s.total*100:0})).sort((a,b)=>b.rate-a.rate);
   $('#stateList').innerHTML=states.map(s=>`<article class="state-row"><i class="state-dot" style="background:${color(s.rate)}"></i><strong>${esc(s.name)}</strong><span>${pct(s.rate)}</span></article>`).join('');
   await drawMap(states);
