@@ -7,7 +7,8 @@ async function render(data){
   $('#activated').textContent=fmt(data.summary.activated);$('#pending').textContent=fmt(data.summary.pending);$('#total').textContent=fmt(data.summary.total);$('#centerCount').textContent=fmt(comparable.length);
   if(data.mapping?.unmatchedPartnerUsers)$('#mappingNote').textContent=`${data.mapping.matchedPartnerUsers} von ${data.mapping.partnerUsers} Partnerkonten sind bereits Partnerstandorten zugeordnet. ${data.mapping.unmatchedPartnerUsers} Konten bleiben bis zur eindeutigen Klärung außerhalb des Standortvergleichs.`;
   const austrianStates=new Set(['Österreich','Wien','Niederösterreich','Oberösterreich','Burgenland','Kärnten','Salzburg','Steiermark','Tirol','Vorarlberg']);
-  const regionName=c=>c.region==='AT'||austrianStates.has(c.state)?'Österreich':c.state;
+  const stateAliases={'Baden-Wurttemberg':'Baden-Württemberg','Mecklenburg Vorpommern':'Mecklenburg-Vorpommern','Thuringen':'Thüringen'};
+  const regionName=c=>c.region==='AT'||austrianStates.has(c.state)?'Österreich':(stateAliases[c.state]||c.state);
   const states=Object.values(comparable.filter(c=>regionName(c)&&regionName(c)!=='Nicht zugeordnet').reduce((a,c)=>{const k=regionName(c);a[k]??={name:k,activated:0,total:0,centers:0};a[k].activated+=c.activated;a[k].total+=c.total;a[k].centers++;return a},{})).map(s=>({...s,rate:s.total?s.activated/s.total*100:0})).sort((a,b)=>b.rate-a.rate);
   $('#stateList').innerHTML=states.map(s=>`<article class="state-row"><i class="state-dot" style="background:${color(s.rate)}"></i><strong>${esc(s.name)}</strong><span>${pct(s.rate)}</span></article>`).join('');
   await drawMap(states);
@@ -50,7 +51,7 @@ function renderPerfectCenters(perfect){
 }
 async function drawMap(states){
   const geo=await fetch('germany-states.geo.json').then(r=>r.json());
-  const aliases={'Baden-Württemberg':'Baden-Wurttemberg','Mecklenburg-Vorpommern':'Mecklenburg Vorpommern','Thüringen':'Thuringen'};
+  const aliases={'Baden-Wurttemberg':'Baden-Württemberg','Mecklenburg Vorpommern':'Mecklenburg-Vorpommern','Thuringen':'Thüringen'};
   const byName=Object.fromEntries(states.map(s=>[s.name,s]));
   const rings=[];geo.features.forEach(f=>walk(f.geometry.coordinates,rings));
   const longitudeFactor=Math.cos(51*Math.PI/180);
