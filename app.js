@@ -1,19 +1,21 @@
 const $=s=>document.querySelector(s);const fmt=n=>new Intl.NumberFormat('de-DE').format(n);const pct=n=>`${Number(n).toLocaleString('de-DE',{minimumFractionDigits:1,maximumFractionDigits:1})} %`;
 function color(rate){return rate>=90?'var(--green)':rate>=70?'var(--yellow)':rate>=40?'var(--amber)':'var(--red)'}
 async function render(data){
+  const comparable=data.centers.filter(c=>c.kind!=='unmatched'&&c.name!=='Nicht zugeordnet');
   $('#updated').textContent=new Date(`${data.updated}T12:00:00`).toLocaleDateString('de-DE');
   $('#overallRate').textContent=pct(data.summary.rate);$('#overallBar').style.width=`${data.summary.rate}%`;
-  $('#activated').textContent=fmt(data.summary.activated);$('#pending').textContent=fmt(data.summary.pending);$('#total').textContent=fmt(data.summary.total);$('#centerCount').textContent=fmt(data.summary.centers);
-  const states=Object.values(data.centers.reduce((a,c)=>{const k=c.state||'Nicht zugeordnet';a[k]??={name:k,activated:0,total:0,centers:0};a[k].activated+=c.activated;a[k].total+=c.total;a[k].centers++;return a},{})).map(s=>({...s,rate:s.total?s.activated/s.total*100:0})).sort((a,b)=>b.rate-a.rate);
+  $('#activated').textContent=fmt(data.summary.activated);$('#pending').textContent=fmt(data.summary.pending);$('#total').textContent=fmt(data.summary.total);$('#centerCount').textContent=fmt(comparable.length);
+  if(data.mapping?.unmatchedPartnerUsers)$('#mappingNote').textContent=`${data.mapping.matchedPartnerUsers} von ${data.mapping.partnerUsers} Partnerkonten sind bereits Partnerstandorten zugeordnet. ${data.mapping.unmatchedPartnerUsers} Konten bleiben bis zur eindeutigen Klärung außerhalb des Standortvergleichs.`;
+  const states=Object.values(comparable.filter(c=>c.state&&c.state!=='Nicht zugeordnet').reduce((a,c)=>{const k=c.state;a[k]??={name:k,activated:0,total:0,centers:0};a[k].activated+=c.activated;a[k].total+=c.total;a[k].centers++;return a},{})).map(s=>({...s,rate:s.total?s.activated/s.total*100:0})).sort((a,b)=>b.rate-a.rate);
   $('#stateList').innerHTML=states.map(s=>`<article class="state-row"><i class="state-dot" style="background:${color(s.rate)}"></i><strong>${esc(s.name)}</strong><span>${pct(s.rate)}</span></article>`).join('');
   await drawMap(states);
-  const ranked=[...data.centers].sort((a,b)=>b.rate-a.rate||b.total-a.total||a.name.localeCompare(b.name,'de-DE')).slice(0,10);
+  const ranked=[...comparable].sort((a,b)=>b.rate-a.rate||b.total-a.total||a.name.localeCompare(b.name,'de-DE')).slice(0,10);
   $('#leaderboard').innerHTML=ranked.map((c,i)=>`<li><span class="rank">${i+1}</span><span class="place">${esc(c.name)}<small>${c.sc?'SC '+esc(c.sc)+' · ':''}${c.activated}/${c.total} aktiviert</small></span><span class="rate">${pct(c.rate)}</span></li>`).join('');
-  const perfect=data.centers.filter(c=>(String(c.sc).startsWith('D_')||c.sc==='n.a.')&&c.total>0&&c.activated===c.total).sort((a,b)=>a.name.localeCompare(b.name,'de-DE'));
+  const perfect=comparable.filter(c=>c.sc&&c.total>0&&c.activated===c.total&&!/HQ|#N\/A/i.test(c.sc)).sort((a,b)=>a.name.localeCompare(b.name,'de-DE'));
   $('#perfectCount').textContent=`${perfect.length} Servicecenter`;
   $('#perfectCenters').innerHTML=perfect.map(c=>`<article class="perfect-card"><span class="perfect-check">✓</span><span><strong>${esc(c.name.replace(/^EUROMASTER\s+/i,''))}</strong><small>${esc(c.sc)} · ${c.total} ${c.total===1?'Person':'Personen'}</small></span><b>100 %</b></article>`).join('');
-  const names=[...new Set(data.centers.map(c=>c.state))].sort((a,b)=>a.localeCompare(b,'de-DE'));$('#stateFilter').innerHTML+=[...names].map(s=>`<option>${esc(s)}</option>`).join('');
-  function list(){const q=$('#search').value.trim().toLowerCase();const st=$('#stateFilter').value;const rows=data.centers.filter(c=>(!st||c.state===st)&&(!q||`${c.name} ${c.sc}`.toLowerCase().includes(q))).sort((a,b)=>b.rate-a.rate||a.name.localeCompare(b.name,'de-DE'));$('#centerList').innerHTML=rows.length?rows.map(c=>`<div class="center-row"><span class="center-title">${esc(c.name)}<small>${c.sc?'SC '+esc(c.sc)+' · ':''}${c.activated} von ${c.total} aktiviert</small></span><span class="mini-progress"><i style="width:${c.rate}%;background:${color(c.rate)}"></i></span><span class="center-rate">${pct(c.rate)}</span></div>`).join(''):'<p class="empty">Kein Standort gefunden.</p>'}
+  const names=[...new Set(comparable.map(c=>c.state))].sort((a,b)=>a.localeCompare(b,'de-DE'));$('#stateFilter').innerHTML+=[...names].map(s=>`<option>${esc(s)}</option>`).join('');
+  function list(){const q=$('#search').value.trim().toLowerCase();const st=$('#stateFilter').value;const rows=comparable.filter(c=>(!st||c.state===st)&&(!q||`${c.name} ${c.sc}`.toLowerCase().includes(q))).sort((a,b)=>b.rate-a.rate||a.name.localeCompare(b.name,'de-DE'));$('#centerList').innerHTML=rows.length?rows.map(c=>`<div class="center-row"><span class="center-title">${esc(c.name)}<small>${c.sc?'SC '+esc(c.sc)+' · ':''}${c.activated} von ${c.total} aktiviert</small></span><span class="mini-progress"><i style="width:${c.rate}%;background:${color(c.rate)}"></i></span><span class="center-rate">${pct(c.rate)}</span></div>`).join(''):'<p class="empty">Kein Standort gefunden.</p>'}
   $('#search').addEventListener('input',list);$('#stateFilter').addEventListener('change',list);list();
 }
 async function drawMap(states){

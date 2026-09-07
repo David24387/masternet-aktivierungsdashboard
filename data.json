@@ -1,13 +1,890 @@
 {
   "updated": "2026-09-07",
   "summary": {
-    "centers": 204,
+    "centers": 376,
     "total": 2015,
     "activated": 1262,
     "pending": 753,
     "rate": 62.6
   },
+  "mapping": {
+    "partnerUsers": 278,
+    "matchedPartnerUsers": 202,
+    "unmatchedPartnerUsers": 76,
+    "partnerLocations": 278
+  },
   "centers": [
+    {
+      "name": "A.R. Fahrzeugtechnik – Schongau",
+      "sc": "D_623",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Schongau",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 1,
+      "kind": "partner",
+      "total": 2,
+      "rate": 50.0
+    },
+    {
+      "name": "AMS Reese GmbH – Regensburg",
+      "sc": "D_726-02",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Regensburg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "AMS Reese GmbH – Schweinfurt",
+      "sc": "D_726",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Schweinfurt",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "ARZ Alfons Reifen-Zentrum GesmbH – Seibersdorf",
+      "sc": "E004",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Seibersdorf",
+      "centerType": "EFR",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "ATC KFZ-Meisterbetrieb GmbH – Mistelbach",
+      "sc": "A_805",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Mistelbach",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Auto Aigner GmbH – Gresten",
+      "sc": "A_839",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Gresten",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Auto Auer Reifenzentrum GmbH – Wien",
+      "sc": "A_878",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Wien",
+      "centerType": "Franchise",
+      "activated": 1,
+      "pending": 2,
+      "kind": "partner",
+      "total": 3,
+      "rate": 33.3
+    },
+    {
+      "name": "Auto-Bottke GmbH – Helmstedt",
+      "sc": "D_232",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Helmstedt",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Auto Doktor GmbH – Selingenstadt",
+      "sc": "D_997",
+      "state": "Hessen",
+      "region": "DE",
+      "area": "Selingenstadt",
+      "centerType": "Mixed",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Auto Fuchs – Regenstauf",
+      "sc": "D_741",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Regenstauf",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Auto Grunau GmbH – Rositz",
+      "sc": "D_849",
+      "state": "Thüringen",
+      "region": "DE",
+      "area": "Rositz",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Auto Haunschmid GmbH – Wien",
+      "sc": "A_028",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Wien",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Auto Leikeim GmbH – Bamberg",
+      "sc": "D_844",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Bamberg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Auto Louis – Kirchheim unter Teck",
+      "sc": "D_675",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Kirchheim unter Teck",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Auto Minor e.K. – Miehlen",
+      "sc": "D_292",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Miehlen",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Auto Novak e.U. – Zwentendorf",
+      "sc": "A_818",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Zwentendorf",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Auto Oberfrank KFZ-Meisterbetrieb – Mertingen",
+      "sc": "D_673",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Mertingen",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Auto Schulte GmbH – Cloppenburg",
+      "sc": "D_489",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Cloppenburg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Auto-Seeger GmbH – Reinheim",
+      "sc": "D_276",
+      "state": "Hessen",
+      "region": "DE",
+      "area": "Reinheim",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autobetriebe Lehmann GmbH – Bandenitz",
+      "sc": "D_494-02",
+      "state": "Mecklenburg-Vorpommern",
+      "region": "DE",
+      "area": "Bandenitz",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 3,
+      "kind": "partner",
+      "total": 4,
+      "rate": 25.0
+    },
+    {
+      "name": "Autobetriebe Lehmann GmbH – Lützow",
+      "sc": "D_494-01",
+      "state": "Mecklenburg-Vorpommern",
+      "region": "DE",
+      "area": "Lützow",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 3,
+      "kind": "partner",
+      "total": 4,
+      "rate": 25.0
+    },
+    {
+      "name": "Autobetriebe Lehmann GmbH – Schwerin",
+      "sc": "D_494-03",
+      "state": "Mecklenburg Vorpommern",
+      "region": "DE",
+      "area": "Schwerin",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 3,
+      "kind": "partner",
+      "total": 4,
+      "rate": 25.0
+    },
+    {
+      "name": "Autofit Farge GmbH – Bremen",
+      "sc": "D_393",
+      "state": "Bremen",
+      "region": "DE",
+      "area": "Bremen",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Büchl GmbH – St. Florian",
+      "sc": "A_804-02",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "St. Florian",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Büchl GmbH – Tumeltsham",
+      "sc": "A_804",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Tumeltsham",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Eichhorn – Ebersberg",
+      "sc": "D_420",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Ebersberg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Autohaus Englhart GmbH – Beyharting",
+      "sc": "D_975",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Beyharting",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Erdberg Reinhard Lehner GmbH – Wien",
+      "sc": "A_822",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Wien",
+      "centerType": "Franchise",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Autohaus Gallersdörfer GmbH & Co.KG – Gangkofen",
+      "sc": "D_980",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Gangkofen",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Gierten GmbH – Langenfeld",
+      "sc": "D_189",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Langenfeld",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Autohaus Gross GmbH – Amberg",
+      "sc": "D_231-01",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Amberg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 1,
+      "kind": "partner",
+      "total": 2,
+      "rate": 50.0
+    },
+    {
+      "name": "Autohaus Gross GmbH – Paulsdorf",
+      "sc": "D_231-02",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Paulsdorf",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 1,
+      "kind": "partner",
+      "total": 2,
+      "rate": 50.0
+    },
+    {
+      "name": "Autohaus Hochreiter GmbH & Co. KG – Trostberg",
+      "sc": "D_993",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Trostberg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Autohaus Iser GmbH – Pfungstadt",
+      "sc": "D_918",
+      "state": "Hessen",
+      "region": "DE",
+      "area": "Pfungstadt",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Autohaus Katz KG – Karlsruhe",
+      "sc": "D_296-01",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Karlsruhe",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Lau in der Probstei GmbH – Schönberg",
+      "sc": "D_991",
+      "state": "Schleswig-Holstein",
+      "region": "DE",
+      "area": "Schönberg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Autohaus Leikeim GmbH – Marktzeuln",
+      "sc": "D_846",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Marktzeuln",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Mezger GmbH – Appenweier",
+      "sc": "D_149-01",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Appenweier",
+      "centerType": "Light",
+      "activated": 3,
+      "pending": 0,
+      "kind": "partner",
+      "total": 3,
+      "rate": 100.0
+    },
+    {
+      "name": "Autohaus Mezger GmbH – Oberkirch",
+      "sc": "D_149-02",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Oberkirch",
+      "centerType": "Light",
+      "activated": 3,
+      "pending": 0,
+      "kind": "partner",
+      "total": 3,
+      "rate": 100.0
+    },
+    {
+      "name": "Autohaus Mühlenhort GmbH – Kritzow",
+      "sc": "D_175",
+      "state": "Mecklenburg-Vorpommern",
+      "region": "DE",
+      "area": "Kritzow",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 1,
+      "kind": "partner",
+      "total": 2,
+      "rate": 50.0
+    },
+    {
+      "name": "Autohaus Nothhelfer GmbH & Co.KG – Rottweil",
+      "sc": "D_678",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Rottweil",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 2,
+      "kind": "partner",
+      "total": 2,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Ortner GmbH – Villach",
+      "sc": "A_051",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Villach",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Schick GmbH & Co. KG – Kirchdorf am Inn",
+      "sc": "D_525",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Kirchdorf am Inn",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Sorg GmbH – Lorch",
+      "sc": "D_775-01",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Lorch",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 3,
+      "kind": "partner",
+      "total": 3,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Sorg GmbH – Schwäbisch-Gmünd",
+      "sc": "D_775-02",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Schwäbisch-Gmünd",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 3,
+      "kind": "partner",
+      "total": 3,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Standard RK GmbH – Stockerau",
+      "sc": "A_832",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Stockerau",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Steinke GmbH – Arnsberg",
+      "sc": "D_716",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Arnsberg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Autohaus Tilli – Kaltenkirchen",
+      "sc": "D_822",
+      "state": "Schleswig-Holstein",
+      "region": "DE",
+      "area": "Kaltenkirchen",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autohaus Walch GmbH – Traunstein",
+      "sc": "D_985-01",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Traunstein",
+      "centerType": "Light",
+      "activated": 2,
+      "pending": 0,
+      "kind": "partner",
+      "total": 2,
+      "rate": 100.0
+    },
+    {
+      "name": "Autohaus Werner GmbH – Weyhe-Leeste",
+      "sc": "D_990",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Weyhe-Leeste",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Automobile Zeitz GmbH – Zeitz",
+      "sc": "D_761",
+      "state": "Sachsen-Anhalt",
+      "region": "DE",
+      "area": "Zeitz",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Automol GmbH – Bottrop",
+      "sc": "D_184",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Bottrop",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autopoint Zeven & Glas Center – Zeven",
+      "sc": "D_433",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Zeven",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Autoservice Güstrow GmbH – Güstrow",
+      "sc": "D_777",
+      "state": "Mecklenburg-Vorpommern",
+      "region": "DE",
+      "area": "Güstrow",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Autoservice Valder UG – Sinzig",
+      "sc": "D_445",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Sinzig",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autoservice Zivkovic – Salzgitter",
+      "sc": "D_903",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Salzgitter",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "AutoServiceZentrum Germania GmbH – Göppingen",
+      "sc": "D_682",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Göppingen",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autoshop Ruhdorfer e.U. – Deutschlandsberg",
+      "sc": "A_063",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Deutschlandsberg",
+      "centerType": "Franchise",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Autotechnik Ickert – Limburg an der Lahn",
+      "sc": "D_531",
+      "state": "Hessen",
+      "region": "DE",
+      "area": "Limburg an der Lahn",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Autozentrum Niesky GmbH – Niesky",
+      "sc": "D_173",
+      "state": "Sachsen",
+      "region": "DE",
+      "area": "Niesky",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "AWK GmbH Autowerkstatt Kienberger – Gerolzhofen",
+      "sc": "D_166-02",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Gerolzhofen",
+      "centerType": "Light",
+      "activated": 2,
+      "pending": 0,
+      "kind": "partner",
+      "total": 2,
+      "rate": 100.0
+    },
+    {
+      "name": "AWK GmbH Autowerkstatt Kienberger – Prichsenstadt",
+      "sc": "D_166-01",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Prichsenstadt",
+      "centerType": "Light",
+      "activated": 2,
+      "pending": 0,
+      "kind": "partner",
+      "total": 2,
+      "rate": 100.0
+    },
+    {
+      "name": "Banana Wheels GmbH – Rosbach vor der Höhe",
+      "sc": "D_640",
+      "state": "Hessen",
+      "region": "DE",
+      "area": "Rosbach vor der Höhe",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Baumi KFZ Technik GmbH – Wolfsberg",
+      "sc": "A_821",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Wolfsberg",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "BB Die Autowerkstatt GmbH – Raubach",
+      "sc": "D_896",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Raubach",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "BM Reifendienst ZwNl. der Gummi Berger Hans Berger GmbH & Co. KG – Waldbröl",
+      "sc": "D_137-07",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Waldbröl",
+      "centerType": "Mixed",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Bosch Car Service Daube – Buchholz",
+      "sc": "D_955",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Buchholz",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 1,
+      "kind": "partner",
+      "total": 2,
+      "rate": 50.0
+    },
     {
       "name": "Bucharest Headquarters",
       "sc": "HQ",
@@ -17,8 +894,61 @@
       "centerType": "Unbekannt",
       "activated": 11,
       "pending": 1,
+      "kind": "internal",
       "total": 12,
       "rate": 91.7
+    },
+    {
+      "name": "Dehnbostel KG – Soltau",
+      "sc": "D_177",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Soltau",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Diewo OG – Buchkirchen",
+      "sc": "A_043",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Buchkirchen",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 2,
+      "kind": "partner",
+      "total": 2,
+      "rate": 0.0
+    },
+    {
+      "name": "Ertugrul Özsevgec Reifenservice – Siegen",
+      "sc": "D_889",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Siegen",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Euro-Reifen Kotulek GmbH – Oeynhausen",
+      "sc": "A_064",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Oeynhausen",
+      "centerType": "Franchise",
+      "activated": 1,
+      "pending": 3,
+      "kind": "partner",
+      "total": 4,
+      "rate": 25.0
     },
     {
       "name": "EUROMASTER AACHEN",
@@ -29,6 +959,7 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 4,
+      "kind": "internal",
       "total": 7,
       "rate": 42.9
     },
@@ -41,6 +972,7 @@
       "centerType": "Unbekannt",
       "activated": 7,
       "pending": 1,
+      "kind": "internal",
       "total": 8,
       "rate": 87.5
     },
@@ -53,6 +985,7 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 1,
+      "kind": "internal",
       "total": 6,
       "rate": 83.3
     },
@@ -65,8 +998,9 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 3,
+      "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER BAD CAMBERG",
@@ -77,8 +1011,9 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 3,
+      "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER BAD SCHWARTAU",
@@ -89,6 +1024,7 @@
       "centerType": "Mixed",
       "activated": 6,
       "pending": 1,
+      "kind": "internal",
       "total": 7,
       "rate": 85.7
     },
@@ -101,6 +1037,7 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 1,
+      "kind": "internal",
       "total": 6,
       "rate": 83.3
     },
@@ -113,6 +1050,7 @@
       "centerType": "Heavy",
       "activated": 2,
       "pending": 1,
+      "kind": "internal",
       "total": 3,
       "rate": 66.7
     },
@@ -125,8 +1063,9 @@
       "centerType": "Mixed",
       "activated": 8,
       "pending": 2,
+      "kind": "internal",
       "total": 10,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER BERLIN-ALT-HOHENS.",
@@ -137,6 +1076,7 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 1,
+      "kind": "internal",
       "total": 7,
       "rate": 85.7
     },
@@ -149,8 +1089,9 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 3,
+      "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER BERLIN-LICHTENBERG",
@@ -161,6 +1102,7 @@
       "centerType": "Light",
       "activated": 9,
       "pending": 5,
+      "kind": "internal",
       "total": 14,
       "rate": 64.3
     },
@@ -173,6 +1115,7 @@
       "centerType": "Mixed",
       "activated": 7,
       "pending": 4,
+      "kind": "internal",
       "total": 11,
       "rate": 63.6
     },
@@ -185,8 +1128,9 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 2,
+      "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER BIBERACH A. D. RISS",
@@ -197,6 +1141,7 @@
       "centerType": "Mixed",
       "activated": 6,
       "pending": 3,
+      "kind": "internal",
       "total": 9,
       "rate": 66.7
     },
@@ -209,8 +1154,9 @@
       "centerType": "Heavy",
       "activated": 2,
       "pending": 2,
+      "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER BOEBLINGEN",
@@ -221,8 +1167,9 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 2,
+      "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER BONN-FRIESDORF",
@@ -233,8 +1180,9 @@
       "centerType": "Unbekannt",
       "activated": 1,
       "pending": 1,
+      "kind": "internal",
       "total": 2,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER BONN-LIMPERICH",
@@ -245,6 +1193,7 @@
       "centerType": "Unbekannt",
       "activated": 4,
       "pending": 3,
+      "kind": "internal",
       "total": 7,
       "rate": 57.1
     },
@@ -257,8 +1206,9 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 0,
+      "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER BRAUNSCHWEIG",
@@ -269,6 +1219,7 @@
       "centerType": "Mixed",
       "activated": 6,
       "pending": 3,
+      "kind": "internal",
       "total": 9,
       "rate": 66.7
     },
@@ -281,6 +1232,7 @@
       "centerType": "Unbekannt",
       "activated": 10,
       "pending": 3,
+      "kind": "internal",
       "total": 13,
       "rate": 76.9
     },
@@ -293,8 +1245,9 @@
       "centerType": "Light",
       "activated": 4,
       "pending": 1,
+      "kind": "internal",
       "total": 5,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER BREMEN-OSTERHOLZ",
@@ -305,6 +1258,7 @@
       "centerType": "Heavy",
       "activated": 5,
       "pending": 1,
+      "kind": "internal",
       "total": 6,
       "rate": 83.3
     },
@@ -317,6 +1271,7 @@
       "centerType": "Mixed",
       "activated": 7,
       "pending": 2,
+      "kind": "internal",
       "total": 9,
       "rate": 77.8
     },
@@ -329,8 +1284,9 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 0,
+      "kind": "internal",
       "total": 5,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER BUCHEN",
@@ -341,8 +1297,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 3,
+      "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER BUEHL",
@@ -353,8 +1310,9 @@
       "centerType": "Heavy",
       "activated": 3,
       "pending": 3,
+      "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER CHEMNITZ-FURTH",
@@ -365,8 +1323,9 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 0,
+      "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER CHEMNITZ-HELBERS.",
@@ -377,6 +1336,7 @@
       "centerType": "Mixed",
       "activated": 7,
       "pending": 1,
+      "kind": "internal",
       "total": 8,
       "rate": 87.5
     },
@@ -389,8 +1349,9 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 3,
+      "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER DARMSTADT-DIEBURG",
@@ -401,8 +1362,9 @@
       "centerType": "Light",
       "activated": 4,
       "pending": 1,
+      "kind": "internal",
       "total": 5,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER DARMSTADT-NORD",
@@ -413,6 +1375,7 @@
       "centerType": "Light",
       "activated": 4,
       "pending": 3,
+      "kind": "internal",
       "total": 7,
       "rate": 57.1
     },
@@ -425,8 +1388,9 @@
       "centerType": "Heavy",
       "activated": 4,
       "pending": 4,
+      "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER DERCHING",
@@ -437,6 +1401,7 @@
       "centerType": "Heavy",
       "activated": 2,
       "pending": 1,
+      "kind": "internal",
       "total": 3,
       "rate": 66.7
     },
@@ -449,6 +1414,7 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 3,
+      "kind": "internal",
       "total": 8,
       "rate": 62.5
     },
@@ -461,8 +1427,9 @@
       "centerType": "Unbekannt",
       "activated": 7,
       "pending": 0,
+      "kind": "internal",
       "total": 7,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER DIEBURG",
@@ -473,8 +1440,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 2,
+      "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER DINSLAKEN",
@@ -485,8 +1453,9 @@
       "centerType": "Unbekannt",
       "activated": 2,
       "pending": 8,
+      "kind": "internal",
       "total": 10,
-      "rate": 20
+      "rate": 20.0
     },
     {
       "name": "EUROMASTER DORTMUND",
@@ -497,6 +1466,7 @@
       "centerType": "Heavy",
       "activated": 5,
       "pending": 2,
+      "kind": "internal",
       "total": 7,
       "rate": 71.4
     },
@@ -509,8 +1479,9 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 4,
+      "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER DUISBURG-NEUENKAMP",
@@ -521,6 +1492,7 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 3,
+      "kind": "internal",
       "total": 8,
       "rate": 62.5
     },
@@ -533,6 +1505,7 @@
       "centerType": "Mixed",
       "activated": 11,
       "pending": 2,
+      "kind": "internal",
       "total": 13,
       "rate": 84.6
     },
@@ -545,6 +1518,7 @@
       "centerType": "Unbekannt",
       "activated": 8,
       "pending": 5,
+      "kind": "internal",
       "total": 13,
       "rate": 61.5
     },
@@ -557,6 +1531,7 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 5,
+      "kind": "internal",
       "total": 8,
       "rate": 37.5
     },
@@ -569,8 +1544,9 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 0,
+      "kind": "internal",
       "total": 5,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER EISENHUTTENSTADT",
@@ -581,8 +1557,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 2,
+      "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER EMMERICH",
@@ -593,6 +1570,7 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 2,
+      "kind": "internal",
       "total": 6,
       "rate": 66.7
     },
@@ -605,6 +1583,7 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 3,
+      "kind": "internal",
       "total": 7,
       "rate": 57.1
     },
@@ -617,8 +1596,9 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 6,
+      "kind": "internal",
       "total": 10,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER ESSEN",
@@ -629,8 +1609,9 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 2,
+      "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER EUTIN",
@@ -641,8 +1622,9 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 1,
+      "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER FLENSBURG",
@@ -653,8 +1635,9 @@
       "centerType": "Light",
       "activated": 4,
       "pending": 0,
+      "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER FRANKFURT AM MAIN-B",
@@ -665,6 +1648,7 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 5,
+      "kind": "internal",
       "total": 7,
       "rate": 28.6
     },
@@ -677,6 +1661,7 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 10,
+      "kind": "internal",
       "total": 13,
       "rate": 23.1
     },
@@ -689,6 +1674,7 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 8,
+      "kind": "internal",
       "total": 13,
       "rate": 38.5
     },
@@ -701,6 +1687,7 @@
       "centerType": "Unbekannt",
       "activated": 123,
       "pending": 5,
+      "kind": "internal",
       "total": 128,
       "rate": 96.1
     },
@@ -713,8 +1700,9 @@
       "centerType": "Heavy",
       "activated": 4,
       "pending": 6,
+      "kind": "internal",
       "total": 10,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER GARCHING",
@@ -725,6 +1713,7 @@
       "centerType": "Heavy",
       "activated": 2,
       "pending": 5,
+      "kind": "internal",
       "total": 7,
       "rate": 28.6
     },
@@ -737,6 +1726,7 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 4,
+      "kind": "internal",
       "total": 9,
       "rate": 55.6
     },
@@ -749,8 +1739,9 @@
       "centerType": "Mixed",
       "activated": 7,
       "pending": 3,
+      "kind": "internal",
       "total": 10,
-      "rate": 70
+      "rate": 70.0
     },
     {
       "name": "EUROMASTER GOETTINGEN",
@@ -761,6 +1752,7 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 4,
+      "kind": "internal",
       "total": 7,
       "rate": 42.9
     },
@@ -773,6 +1765,7 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 4,
+      "kind": "internal",
       "total": 9,
       "rate": 55.6
     },
@@ -785,6 +1778,7 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 3,
+      "kind": "internal",
       "total": 7,
       "rate": 57.1
     },
@@ -797,8 +1791,9 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 3,
+      "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER HALBERSTADT",
@@ -809,20 +1804,9 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 1,
+      "kind": "internal",
       "total": 4,
-      "rate": 75
-    },
-    {
-      "name": "EUROMASTER HALLE SAALE SIL.",
-      "sc": "D_418",
-      "state": "Sachsen-Anhalt",
-      "region": "Nord",
-      "area": "RL_06",
-      "centerType": "Mixed",
-      "activated": 3,
-      "pending": 5,
-      "total": 8,
-      "rate": 37.5
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER HALLE SAALE-MOTZ",
@@ -833,8 +1817,22 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 5,
+      "kind": "internal",
       "total": 9,
       "rate": 44.4
+    },
+    {
+      "name": "EUROMASTER HALLE SAALE SIL.",
+      "sc": "D_418",
+      "state": "Sachsen-Anhalt",
+      "region": "Nord",
+      "area": "RL_06",
+      "centerType": "Mixed",
+      "activated": 3,
+      "pending": 5,
+      "kind": "internal",
+      "total": 8,
+      "rate": 37.5
     },
     {
       "name": "EUROMASTER HAMBURG-BAHRENFELD",
@@ -845,6 +1843,7 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 2,
+      "kind": "internal",
       "total": 7,
       "rate": 71.4
     },
@@ -857,6 +1856,7 @@
       "centerType": "Mixed",
       "activated": 8,
       "pending": 7,
+      "kind": "internal",
       "total": 15,
       "rate": 53.3
     },
@@ -869,8 +1869,9 @@
       "centerType": "Light",
       "activated": 4,
       "pending": 1,
+      "kind": "internal",
       "total": 5,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER HAMBURG-LOHBRUEGGE",
@@ -881,6 +1882,7 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 1,
+      "kind": "internal",
       "total": 6,
       "rate": 83.3
     },
@@ -893,6 +1895,7 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 4,
+      "kind": "internal",
       "total": 6,
       "rate": 33.3
     },
@@ -905,6 +1908,7 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 6,
+      "kind": "internal",
       "total": 11,
       "rate": 45.5
     },
@@ -917,6 +1921,7 @@
       "centerType": "Mixed",
       "activated": 6,
       "pending": 1,
+      "kind": "internal",
       "total": 7,
       "rate": 85.7
     },
@@ -929,8 +1934,9 @@
       "centerType": "Light",
       "activated": 4,
       "pending": 0,
+      "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER HEIDELBERG",
@@ -941,6 +1947,7 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 5,
+      "kind": "internal",
       "total": 7,
       "rate": 28.6
     },
@@ -953,8 +1960,9 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 3,
+      "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER HEILBRONN-LKW",
@@ -965,8 +1973,9 @@
       "centerType": "Heavy",
       "activated": 2,
       "pending": 3,
+      "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER HESSISCH LICHTENAU",
@@ -977,8 +1986,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 3,
+      "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER HILDESHEIM",
@@ -989,8 +1999,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 0,
+      "kind": "internal",
       "total": 3,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER HOLZMINDEN",
@@ -1001,6 +2012,7 @@
       "centerType": "Unbekannt",
       "activated": 5,
       "pending": 1,
+      "kind": "internal",
       "total": 6,
       "rate": 83.3
     },
@@ -1013,8 +2025,9 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 0,
+      "kind": "internal",
       "total": 2,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER HUERTH",
@@ -1025,6 +2038,7 @@
       "centerType": "Unbekannt",
       "activated": 11,
       "pending": 3,
+      "kind": "internal",
       "total": 14,
       "rate": 78.6
     },
@@ -1037,8 +2051,9 @@
       "centerType": "Mixed",
       "activated": 6,
       "pending": 0,
+      "kind": "internal",
       "total": 6,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER KAISERSLAUTERN",
@@ -1049,8 +2064,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 9,
+      "kind": "internal",
       "total": 12,
-      "rate": 25
+      "rate": 25.0
     },
     {
       "name": "EUROMASTER KAMEN",
@@ -1061,6 +2077,7 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 2,
+      "kind": "internal",
       "total": 7,
       "rate": 71.4
     },
@@ -1073,6 +2090,7 @@
       "centerType": "Light",
       "activated": 4,
       "pending": 5,
+      "kind": "internal",
       "total": 9,
       "rate": 44.4
     },
@@ -1085,8 +2103,9 @@
       "centerType": "Heavy",
       "activated": 2,
       "pending": 2,
+      "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER KARLSRUHE",
@@ -1097,6 +2116,7 @@
       "centerType": "Heavy",
       "activated": 1,
       "pending": 2,
+      "kind": "internal",
       "total": 3,
       "rate": 33.3
     },
@@ -1109,6 +2129,7 @@
       "centerType": "Unbekannt",
       "activated": 8,
       "pending": 6,
+      "kind": "internal",
       "total": 14,
       "rate": 57.1
     },
@@ -1121,8 +2142,9 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 2,
+      "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER KIEL",
@@ -1133,6 +2155,7 @@
       "centerType": "Mixed",
       "activated": 6,
       "pending": 7,
+      "kind": "internal",
       "total": 13,
       "rate": 46.2
     },
@@ -1145,8 +2168,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 2,
+      "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER KOENIGS WUSTER.",
@@ -1157,8 +2181,9 @@
       "centerType": "Heavy",
       "activated": 4,
       "pending": 0,
+      "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER KOLN-EHRENFELD",
@@ -1169,8 +2194,9 @@
       "centerType": "Unbekannt",
       "activated": 2,
       "pending": 3,
+      "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER KOLN-HOLWEIDE",
@@ -1181,8 +2207,9 @@
       "centerType": "Unbekannt",
       "activated": 0,
       "pending": 1,
+      "kind": "internal",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "EUROMASTER KOLN-WESTHOVEN",
@@ -1193,8 +2220,9 @@
       "centerType": "Unbekannt",
       "activated": 5,
       "pending": 5,
+      "kind": "internal",
       "total": 10,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER KOMPLETTRAD ÖSTERREICH",
@@ -1205,8 +2233,9 @@
       "centerType": "Unbekannt",
       "activated": 3,
       "pending": 0,
+      "kind": "internal",
       "total": 3,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER KREFELD-BOCKUM",
@@ -1217,6 +2246,7 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 1,
+      "kind": "internal",
       "total": 6,
       "rate": 83.3
     },
@@ -1229,6 +2259,7 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 3,
+      "kind": "internal",
       "total": 7,
       "rate": 57.1
     },
@@ -1241,6 +2272,7 @@
       "centerType": "Heavy",
       "activated": 5,
       "pending": 1,
+      "kind": "internal",
       "total": 6,
       "rate": 83.3
     },
@@ -1253,8 +2285,9 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 2,
+      "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER LANDAU",
@@ -1265,6 +2298,7 @@
       "centerType": "Heavy",
       "activated": 6,
       "pending": 1,
+      "kind": "internal",
       "total": 7,
       "rate": 85.7
     },
@@ -1277,8 +2311,9 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 4,
+      "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER LANGEN",
@@ -1289,6 +2324,7 @@
       "centerType": "Light",
       "activated": 4,
       "pending": 2,
+      "kind": "internal",
       "total": 6,
       "rate": 66.7
     },
@@ -1301,8 +2337,9 @@
       "centerType": "Heavy",
       "activated": 6,
       "pending": 2,
+      "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER LEER",
@@ -1313,6 +2350,7 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 2,
+      "kind": "internal",
       "total": 6,
       "rate": 66.7
     },
@@ -1325,8 +2363,9 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 3,
+      "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER LEIPZIG-NEULINDENAU",
@@ -1337,8 +2376,9 @@
       "centerType": "Unbekannt",
       "activated": 6,
       "pending": 2,
+      "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER LEIPZIG-SCHONEFELD",
@@ -1349,8 +2389,9 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 4,
+      "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER LINGEN",
@@ -1361,6 +2402,7 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 4,
+      "kind": "internal",
       "total": 7,
       "rate": 42.9
     },
@@ -1373,8 +2415,9 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 4,
+      "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER LUDWIGSHAFEN-SUD",
@@ -1385,6 +2428,7 @@
       "centerType": "Unbekannt",
       "activated": 4,
       "pending": 2,
+      "kind": "internal",
       "total": 6,
       "rate": 66.7
     },
@@ -1397,6 +2441,7 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 1,
+      "kind": "internal",
       "total": 7,
       "rate": 85.7
     },
@@ -1409,8 +2454,9 @@
       "centerType": "Heavy",
       "activated": 9,
       "pending": 0,
+      "kind": "internal",
       "total": 9,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER MAGDEBURG",
@@ -1421,8 +2467,9 @@
       "centerType": "Mixed",
       "activated": 6,
       "pending": 2,
+      "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER MAINZ-EBERSHEIM",
@@ -1433,8 +2480,9 @@
       "centerType": "Light",
       "activated": 4,
       "pending": 4,
+      "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER MAINZ-MOMBACH",
@@ -1445,6 +2493,7 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 5,
+      "kind": "internal",
       "total": 7,
       "rate": 28.6
     },
@@ -1457,6 +2506,7 @@
       "centerType": "Unbekannt",
       "activated": 152,
       "pending": 27,
+      "kind": "internal",
       "total": 179,
       "rate": 84.9
     },
@@ -1469,8 +2519,9 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 4,
+      "kind": "internal",
       "total": 10,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER MANNHEIM-NECKERAU F",
@@ -1481,6 +2532,7 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 3,
+      "kind": "internal",
       "total": 8,
       "rate": 62.5
     },
@@ -1493,8 +2545,9 @@
       "centerType": "Mixed",
       "activated": 6,
       "pending": 0,
+      "kind": "internal",
       "total": 6,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER METTMANN",
@@ -1505,6 +2558,7 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 2,
+      "kind": "internal",
       "total": 6,
       "rate": 66.7
     },
@@ -1517,6 +2571,7 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 5,
+      "kind": "internal",
       "total": 11,
       "rate": 54.5
     },
@@ -1529,8 +2584,9 @@
       "centerType": "Heavy",
       "activated": 11,
       "pending": 0,
+      "kind": "internal",
       "total": 11,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER MULHEIM AN DER RUHR",
@@ -1541,6 +2597,7 @@
       "centerType": "Light",
       "activated": 8,
       "pending": 10,
+      "kind": "internal",
       "total": 18,
       "rate": 44.4
     },
@@ -1553,6 +2610,7 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 10,
+      "kind": "internal",
       "total": 12,
       "rate": 16.7
     },
@@ -1565,6 +2623,7 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 6,
+      "kind": "internal",
       "total": 9,
       "rate": 33.3
     },
@@ -1577,8 +2636,9 @@
       "centerType": "Light",
       "activated": 1,
       "pending": 3,
+      "kind": "internal",
       "total": 4,
-      "rate": 25
+      "rate": 25.0
     },
     {
       "name": "EUROMASTER MUNCHEN-SCHWABING",
@@ -1589,6 +2649,7 @@
       "centerType": "Light",
       "activated": 1,
       "pending": 2,
+      "kind": "internal",
       "total": 3,
       "rate": 33.3
     },
@@ -1601,6 +2662,7 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 7,
+      "kind": "internal",
       "total": 9,
       "rate": 22.2
     },
@@ -1613,6 +2675,7 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 7,
+      "kind": "internal",
       "total": 12,
       "rate": 41.7
     },
@@ -1625,6 +2688,7 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 2,
+      "kind": "internal",
       "total": 7,
       "rate": 71.4
     },
@@ -1637,8 +2701,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 1,
+      "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER NEUSS",
@@ -1649,8 +2714,9 @@
       "centerType": "Unbekannt",
       "activated": 4,
       "pending": 1,
+      "kind": "internal",
       "total": 5,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER NEUSTADT AN DER W.",
@@ -1661,8 +2727,9 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 0,
+      "kind": "internal",
       "total": 6,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER NEUSTRELITZ",
@@ -1673,6 +2740,7 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 4,
+      "kind": "internal",
       "total": 6,
       "rate": 33.3
     },
@@ -1685,8 +2753,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 1,
+      "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER NORDERSTEDT",
@@ -1697,8 +2766,9 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 2,
+      "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER NURNBERG-WERDERAU",
@@ -1709,6 +2779,7 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 10,
+      "kind": "internal",
       "total": 15,
       "rate": 33.3
     },
@@ -1721,6 +2792,7 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 3,
+      "kind": "internal",
       "total": 9,
       "rate": 66.7
     },
@@ -1733,8 +2805,9 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 1,
+      "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER OLDENBURG-ALEXAND.",
@@ -1745,6 +2818,7 @@
       "centerType": "Light",
       "activated": 4,
       "pending": 3,
+      "kind": "internal",
       "total": 7,
       "rate": 57.1
     },
@@ -1757,6 +2831,7 @@
       "centerType": "Mixed",
       "activated": 6,
       "pending": 3,
+      "kind": "internal",
       "total": 9,
       "rate": 66.7
     },
@@ -1769,6 +2844,7 @@
       "centerType": "Unbekannt",
       "activated": 5,
       "pending": 2,
+      "kind": "internal",
       "total": 7,
       "rate": 71.4
     },
@@ -1781,6 +2857,7 @@
       "centerType": "Mixed",
       "activated": 15,
       "pending": 9,
+      "kind": "internal",
       "total": 24,
       "rate": 62.5
     },
@@ -1793,6 +2870,7 @@
       "centerType": "Unbekannt",
       "activated": 4,
       "pending": 2,
+      "kind": "internal",
       "total": 6,
       "rate": 66.7
     },
@@ -1805,6 +2883,7 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 1,
+      "kind": "internal",
       "total": 6,
       "rate": 83.3
     },
@@ -1817,8 +2896,9 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 2,
+      "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER PADERBORN",
@@ -1829,8 +2909,9 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 0,
+      "kind": "internal",
       "total": 5,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER PASSAU",
@@ -1841,8 +2922,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 1,
+      "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER PFAFFENHOFEN",
@@ -1853,8 +2935,9 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 2,
+      "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER PFORZHEIM",
@@ -1865,6 +2948,7 @@
       "centerType": "Light",
       "activated": 1,
       "pending": 2,
+      "kind": "internal",
       "total": 3,
       "rate": 33.3
     },
@@ -1877,6 +2961,7 @@
       "centerType": "Heavy",
       "activated": 6,
       "pending": 3,
+      "kind": "internal",
       "total": 9,
       "rate": 66.7
     },
@@ -1889,8 +2974,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 3,
+      "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER RATINGEN",
@@ -1901,6 +2987,7 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 4,
+      "kind": "internal",
       "total": 9,
       "rate": 55.6
     },
@@ -1913,8 +3000,9 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 3,
+      "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER REMSCHEID",
@@ -1925,8 +3013,9 @@
       "centerType": "Light",
       "activated": 1,
       "pending": 0,
+      "kind": "internal",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER RENDSBURG",
@@ -1937,8 +3026,9 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 4,
+      "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER RHEINE-ESCHENDORF",
@@ -1949,8 +3039,9 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 3,
+      "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER RHEINE-MESUM",
@@ -1961,8 +3052,9 @@
       "centerType": "Heavy",
       "activated": 3,
       "pending": 1,
+      "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER ROSTOCK",
@@ -1973,6 +3065,7 @@
       "centerType": "Unbekannt",
       "activated": 5,
       "pending": 7,
+      "kind": "internal",
       "total": 12,
       "rate": 41.7
     },
@@ -1985,6 +3078,7 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 2,
+      "kind": "internal",
       "total": 6,
       "rate": 66.7
     },
@@ -1997,6 +3091,7 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 6,
+      "kind": "internal",
       "total": 9,
       "rate": 33.3
     },
@@ -2009,8 +3104,9 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 0,
+      "kind": "internal",
       "total": 3,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER SAARLOUIS",
@@ -2021,8 +3117,9 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 3,
+      "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER SAARLOUIS-LKW",
@@ -2033,8 +3130,9 @@
       "centerType": "Heavy",
       "activated": 3,
       "pending": 3,
+      "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER SCHWETZINGEN",
@@ -2045,6 +3143,7 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 8,
+      "kind": "internal",
       "total": 11,
       "rate": 27.3
     },
@@ -2057,8 +3156,9 @@
       "centerType": "Mixed",
       "activated": 1,
       "pending": 0,
+      "kind": "internal",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER SINGEN",
@@ -2069,8 +3169,9 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 8,
+      "kind": "internal",
       "total": 10,
-      "rate": 20
+      "rate": 20.0
     },
     {
       "name": "EUROMASTER SOLINGEN",
@@ -2081,6 +3182,7 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 5,
+      "kind": "internal",
       "total": 7,
       "rate": 28.6
     },
@@ -2093,6 +3195,7 @@
       "centerType": "Mixed",
       "activated": 6,
       "pending": 1,
+      "kind": "internal",
       "total": 7,
       "rate": 85.7
     },
@@ -2105,8 +3208,9 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 2,
+      "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER STADE",
@@ -2117,8 +3221,9 @@
       "centerType": "Mixed",
       "activated": 7,
       "pending": 3,
+      "kind": "internal",
       "total": 10,
-      "rate": 70
+      "rate": 70.0
     },
     {
       "name": "EUROMASTER STADTBERGEN",
@@ -2129,6 +3234,7 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 1,
+      "kind": "internal",
       "total": 7,
       "rate": 85.7
     },
@@ -2141,8 +3247,9 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 6,
+      "kind": "internal",
       "total": 8,
-      "rate": 25
+      "rate": 25.0
     },
     {
       "name": "EUROMASTER STUTTGART-UNTERTUR.",
@@ -2153,8 +3260,9 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 8,
+      "kind": "internal",
       "total": 10,
-      "rate": 20
+      "rate": 20.0
     },
     {
       "name": "EUROMASTER TRIER-RUWER EITELS.",
@@ -2165,8 +3273,9 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 2,
+      "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER TRIER-ZEWEN",
@@ -2177,6 +3286,7 @@
       "centerType": "Light",
       "activated": 4,
       "pending": 5,
+      "kind": "internal",
       "total": 9,
       "rate": 44.4
     },
@@ -2189,8 +3299,9 @@
       "centerType": "Mixed",
       "activated": 3,
       "pending": 3,
+      "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER ULM",
@@ -2201,6 +3312,7 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 4,
+      "kind": "internal",
       "total": 7,
       "rate": 42.9
     },
@@ -2213,6 +3325,7 @@
       "centerType": "Light",
       "activated": 3,
       "pending": 5,
+      "kind": "internal",
       "total": 8,
       "rate": 37.5
     },
@@ -2225,8 +3338,9 @@
       "centerType": "Mixed",
       "activated": 1,
       "pending": 0,
+      "kind": "internal",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER WALDKIRCH",
@@ -2237,6 +3351,7 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 1,
+      "kind": "internal",
       "total": 3,
       "rate": 66.7
     },
@@ -2249,8 +3364,9 @@
       "centerType": "Light",
       "activated": 2,
       "pending": 6,
+      "kind": "internal",
       "total": 8,
-      "rate": 25
+      "rate": 25.0
     },
     {
       "name": "EUROMASTER WARENDORF",
@@ -2261,8 +3377,9 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 1,
+      "kind": "internal",
       "total": 5,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER WEIL AM RHEIN",
@@ -2273,6 +3390,7 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 1,
+      "kind": "internal",
       "total": 6,
       "rate": 83.3
     },
@@ -2285,6 +3403,7 @@
       "centerType": "Mixed",
       "activated": 5,
       "pending": 2,
+      "kind": "internal",
       "total": 7,
       "rate": 71.4
     },
@@ -2297,8 +3416,9 @@
       "centerType": "Mixed",
       "activated": 1,
       "pending": 0,
+      "kind": "internal",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER WERTHEIM",
@@ -2309,8 +3429,9 @@
       "centerType": "Mixed",
       "activated": 4,
       "pending": 1,
+      "kind": "internal",
       "total": 5,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER WESEL",
@@ -2321,8 +3442,9 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 4,
+      "kind": "internal",
       "total": 10,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER WESTERSTEDE",
@@ -2333,6 +3455,7 @@
       "centerType": "Mixed",
       "activated": 8,
       "pending": 4,
+      "kind": "internal",
       "total": 12,
       "rate": 66.7
     },
@@ -2345,8 +3468,9 @@
       "centerType": "Unbekannt",
       "activated": 6,
       "pending": 0,
+      "kind": "internal",
       "total": 6,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER WIESBADEN",
@@ -2357,6 +3481,7 @@
       "centerType": "Light",
       "activated": 5,
       "pending": 3,
+      "kind": "internal",
       "total": 8,
       "rate": 62.5
     },
@@ -2369,8 +3494,9 @@
       "centerType": "Heavy",
       "activated": 4,
       "pending": 0,
+      "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER WUERZBURG-RHOTENB.",
@@ -2381,6 +3507,7 @@
       "centerType": "Mixed",
       "activated": 2,
       "pending": 4,
+      "kind": "internal",
       "total": 6,
       "rate": 33.3
     },
@@ -2393,8 +3520,9 @@
       "centerType": "Light",
       "activated": 6,
       "pending": 2,
+      "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER WUPPERTAL-LAN-B",
@@ -2405,8 +3533,9 @@
       "centerType": "Light",
       "activated": 7,
       "pending": 0,
+      "kind": "internal",
       "total": 7,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER WUPPERTAL-LAN-B-LKW",
@@ -2417,8 +3546,698 @@
       "centerType": "Heavy",
       "activated": 6,
       "pending": 1,
+      "kind": "internal",
       "total": 7,
       "rate": 85.7
+    },
+    {
+      "name": "Evro Bus GmbH – Weinheim",
+      "sc": "D_888",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Weinheim",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "FahrWerk GmbH – Bayreuth",
+      "sc": "D_226",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Bayreuth",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Fahrzeug Kompetenzzentrum GmbH – Großebersdorf",
+      "sc": "A_037-02",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Großebersdorf",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 2,
+      "kind": "partner",
+      "total": 2,
+      "rate": 0.0
+    },
+    {
+      "name": "Fahrzeug-Service-Heuzeroth – Freigericht",
+      "sc": "D_269",
+      "state": "Hessen",
+      "region": "DE",
+      "area": "Freigericht",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Fahrzeug Service Unverzagt – Freiburg",
+      "sc": "D_905",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Freiburg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Fleck & Flecker KFZ Fachwerkstatt GmbH – Lieboch",
+      "sc": "A_045",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Lieboch",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 2,
+      "kind": "partner",
+      "total": 2,
+      "rate": 0.0
+    },
+    {
+      "name": "Frachtspezialist Berthold GmbH – Zwickau",
+      "sc": "D_511",
+      "state": "Sachsen",
+      "region": "DE",
+      "area": "Zwickau",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Franz Auer GmbH & Co. KG – Straubing",
+      "sc": "D_860",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Straubing",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Friebe-Autoteile-Fachmarkt – Seesen",
+      "sc": "D_683",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Seesen",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 1,
+      "kind": "partner",
+      "total": 2,
+      "rate": 50.0
+    },
+    {
+      "name": "Gerd Bauer Motorcenter Ges.m.b.H – Bruck an der Leitha",
+      "sc": "A_803",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Bruck an der Leitha",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "GGR Performance – Wertingen",
+      "sc": "D_764",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Wertingen",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Gummi Berger Hans Berger GmbH & Co. KG. – Gummersbach",
+      "sc": "D_137-01",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Gummersbach",
+      "centerType": "Mixed",
+      "activated": 5,
+      "pending": 12,
+      "kind": "partner",
+      "total": 17,
+      "rate": 29.4
+    },
+    {
+      "name": "Gummi Berger Hans Berger GmbH & Co. KG. – Gummersbach",
+      "sc": "D_137-09",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Gummersbach",
+      "centerType": "Mixed",
+      "activated": 5,
+      "pending": 12,
+      "kind": "partner",
+      "total": 17,
+      "rate": 29.4
+    },
+    {
+      "name": "Gummi Berger Hans Berger GmbH & Co. KG. – Hückeswagen",
+      "sc": "D_137-08",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Hückeswagen",
+      "centerType": "Mixed",
+      "activated": 5,
+      "pending": 12,
+      "kind": "partner",
+      "total": 17,
+      "rate": 29.4
+    },
+    {
+      "name": "Gummi Berger Hans Berger GmbH & Co. KG. – Köln-Chorweiler",
+      "sc": "D_137-05",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Köln-Chorweiler",
+      "centerType": "Mixed",
+      "activated": 5,
+      "pending": 12,
+      "kind": "partner",
+      "total": 17,
+      "rate": 29.4
+    },
+    {
+      "name": "Gummi Berger Hans Berger GmbH & Co. KG. – Olpe",
+      "sc": "D_137-10",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Olpe",
+      "centerType": "Mixed",
+      "activated": 5,
+      "pending": 12,
+      "kind": "partner",
+      "total": 17,
+      "rate": 29.4
+    },
+    {
+      "name": "Gummi Berger Hans Berger GmbH & Co. KG. – Overath-Obersteeg",
+      "sc": "D_137-02",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Overath-Obersteeg",
+      "centerType": "Mixed",
+      "activated": 5,
+      "pending": 12,
+      "kind": "partner",
+      "total": 17,
+      "rate": 29.4
+    },
+    {
+      "name": "Gummi-Mayer Car Service GmbH & Co. KG – Landau",
+      "sc": "D_826",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Landau",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Gummi -Mayer Kempten GmbH & Co. KG – Kempten",
+      "sc": "D_827",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Kempten",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Hammes Reifen- und Autoservice e. K. – Kaisersesch",
+      "sc": "D_866",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Kaisersesch",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 1,
+      "kind": "partner",
+      "total": 2,
+      "rate": 50.0
+    },
+    {
+      "name": "Hans Stadler GmbH – Mauer bei Amstetten",
+      "sc": "A_053",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Mauer bei Amstetten",
+      "centerType": "Franchise",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Heinemann Gruppe GmbH – Goslar",
+      "sc": "D_397-03",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Goslar",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 2,
+      "kind": "partner",
+      "total": 2,
+      "rate": 0.0
+    },
+    {
+      "name": "Heinemann Gruppe GmbH – Salzgitter",
+      "sc": "D_397-02",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Salzgitter",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 2,
+      "kind": "partner",
+      "total": 2,
+      "rate": 0.0
+    },
+    {
+      "name": "Heinemann Gruppe GmbH – Wernigerode",
+      "sc": "D_397-01",
+      "state": "Sachsen-Anhalt",
+      "region": "DE",
+      "area": "Wernigerode",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 2,
+      "kind": "partner",
+      "total": 2,
+      "rate": 0.0
+    },
+    {
+      "name": "Hermann Bunte Auto-Elektrik GmbH – Papenburg",
+      "sc": "D_909",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Papenburg",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Hessler GesmbH – Neunkirchen",
+      "sc": "A_811-02",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Neunkirchen",
+      "centerType": "Franchise",
+      "activated": 1,
+      "pending": 2,
+      "kind": "partner",
+      "total": 3,
+      "rate": 33.3
+    },
+    {
+      "name": "Hessler GesmbH – Olbersdorf",
+      "sc": "A_811-01",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Olbersdorf",
+      "centerType": "Franchise",
+      "activated": 1,
+      "pending": 2,
+      "kind": "partner",
+      "total": 3,
+      "rate": 33.3
+    },
+    {
+      "name": "Jens Probst Automobile – Crailsheim",
+      "sc": "D_877",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Crailsheim",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "JT Garage GmbH – Mainz-Kastel",
+      "sc": "D_677",
+      "state": "Hessen",
+      "region": "DE",
+      "area": "Mainz-Kastel",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Karlau GmbH – Engelbrechtsche Wildnis",
+      "sc": "D_902",
+      "state": "Schleswig-Holstein",
+      "region": "DE",
+      "area": "Engelbrechtsche Wildnis",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Karosseriebau Heinz GmbH & Co. KG – Großheide",
+      "sc": "D_613",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Großheide",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "KDM Reifenhandel – Mannheim",
+      "sc": "D_739-01",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Mannheim",
+      "centerType": "Heavy",
+      "activated": 2,
+      "pending": 1,
+      "kind": "partner",
+      "total": 3,
+      "rate": 66.7
+    },
+    {
+      "name": "KDM Reifenhandel – Mannheim",
+      "sc": "D_739-02",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Mannheim",
+      "centerType": "Light",
+      "activated": 2,
+      "pending": 1,
+      "kind": "partner",
+      "total": 3,
+      "rate": 66.7
+    },
+    {
+      "name": "KFZ-Frömling Lasczyk und Weishaupt GbR – Bochum",
+      "sc": "D_950-02",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Bochum",
+      "centerType": "Mixed",
+      "activated": 0,
+      "pending": 3,
+      "kind": "partner",
+      "total": 3,
+      "rate": 0.0
+    },
+    {
+      "name": "KFZ-Frömling Lasczyk und Weishaupt GbR – Bochum",
+      "sc": "D_950-03",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Bochum",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 3,
+      "kind": "partner",
+      "total": 3,
+      "rate": 0.0
+    },
+    {
+      "name": "Kfz Frömling Lasczyk und Weishaupt GbR – Dortmund",
+      "sc": "D_950-04",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Dortmund",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 3,
+      "kind": "partner",
+      "total": 3,
+      "rate": 0.0
+    },
+    {
+      "name": "Kfz Frömling Lasczyk und Weishaupt GbR – Witten",
+      "sc": "D_950",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Witten",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 3,
+      "kind": "partner",
+      "total": 3,
+      "rate": 0.0
+    },
+    {
+      "name": "KFZ Meisterbetrieb Drive Tech GmbH – Koeln",
+      "sc": "D_185",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Koeln",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "KFZ Meisterbetrieb Mohallik – Koeln",
+      "sc": "D_847",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Koeln",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Kfz Schmiede GmbH – Tragwein",
+      "sc": "A_015",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Tragwein",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "KFZ Service Hansen GmbH – Düren",
+      "sc": "D_516",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Düren",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "KFZ-Spezialisten Team GmbH – Lüneburg",
+      "sc": "D_890",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Lüneburg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "KFZ-Technik Schuhmann GmbH – Bad Brückenau",
+      "sc": "D_162-02",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Bad Brückenau",
+      "centerType": "Light",
+      "activated": 3,
+      "pending": 0,
+      "kind": "partner",
+      "total": 3,
+      "rate": 100.0
+    },
+    {
+      "name": "KFZ-Technik Schuhmann GmbH – Salz bei Bad Neustadt",
+      "sc": "D_162-01",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Salz bei Bad Neustadt",
+      "centerType": "Light",
+      "activated": 3,
+      "pending": 0,
+      "kind": "partner",
+      "total": 3,
+      "rate": 100.0
+    },
+    {
+      "name": "Kfz-Technik Wild – Wilhelmshaven",
+      "sc": "D_624",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Wilhelmshaven",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "KFZ und Reifenservice Kloster GmbH – Völklingen",
+      "sc": "D_139",
+      "state": "Saarland",
+      "region": "DE",
+      "area": "Völklingen",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "KFZ Zentrum Bad Bramstedt GmbH – Bad Bramstedt",
+      "sc": "D_907",
+      "state": "Schleswig-Holstein",
+      "region": "DE",
+      "area": "Bad Bramstedt",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Klaus Geier KFZ Meisterbetrieb – Neukirchen vorm Wald",
+      "sc": "D_181",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Neukirchen vorm Wald",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "LCM Lausitzer Container & Metall GmbH – Großräschen",
+      "sc": "D_224",
+      "state": "Brandenburg",
+      "region": "DE",
+      "area": "Großräschen",
+      "centerType": "Mixed",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "M&Ö Reifen Autoservice GmbH – Wien",
+      "sc": "A_061",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Wien",
+      "centerType": "Franchise",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "M.Partsch Kraftfahrzeugwerkstättenbetriebe Gesellschaft m.b.H. & Co KG – Bad Fischau-Brunn",
+      "sc": "A_820",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Bad Fischau-Brunn",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "M. Schmelzer GmbH – Homburg",
+      "sc": "D_690",
+      "state": "Saarland",
+      "region": "DE",
+      "area": "Homburg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Maiers Autowelt – Tuttlingen",
+      "sc": "D_148",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Tuttlingen",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
     },
     {
       "name": "MGM for Netherlands",
@@ -2429,8 +4248,35 @@
       "centerType": "Unbekannt",
       "activated": 1,
       "pending": 0,
+      "kind": "internal",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
+    },
+    {
+      "name": "Mülot Autotechnik Reifen GmbH & Co.KG – Bad Segeberg",
+      "sc": "D_908-07",
+      "state": "Schleswig-Holstein",
+      "region": "DE",
+      "area": "Bad Segeberg",
+      "centerType": "Mixed",
+      "activated": 2,
+      "pending": 1,
+      "kind": "partner",
+      "total": 3,
+      "rate": 66.7
+    },
+    {
+      "name": "Mülot Autotechnik Reifen GmbH & Co.KG – Lübz",
+      "sc": "D_908-01",
+      "state": "Mecklenburg-Vorpommern",
+      "region": "DE",
+      "area": "Lübz",
+      "centerType": "Mixed",
+      "activated": 2,
+      "pending": 1,
+      "kind": "partner",
+      "total": 3,
+      "rate": 66.7
     },
     {
       "name": "Nicht zugeordnet",
@@ -2439,10 +4285,557 @@
       "region": "Nicht zugeordnet",
       "area": "Nicht zugeordnet",
       "centerType": "Unbekannt",
-      "activated": 134,
-      "pending": 153,
-      "total": 287,
-      "rate": 46.7
+      "activated": 9,
+      "pending": 0,
+      "kind": "internal",
+      "total": 9,
+      "rate": 100.0
+    },
+    {
+      "name": "OS Fahrzeugtechnik – Geesthacht",
+      "sc": "D_960",
+      "state": "Schleswig-Holstein",
+      "region": "DE",
+      "area": "Geesthacht",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Partner noch nicht zugeordnet",
+      "sc": "",
+      "state": "Nicht zugeordnet",
+      "region": "Nicht zugeordnet",
+      "area": "Nicht zugeordnet",
+      "centerType": "Franchise",
+      "activated": 30,
+      "pending": 46,
+      "kind": "unmatched",
+      "total": 76,
+      "rate": 39.5
+    },
+    {
+      "name": "Pascher Nutzfahrzeugreifen GmbH – Bad Tölz",
+      "sc": "D_917",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Bad Tölz",
+      "centerType": "Heavy",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "PBM Fahrzeug- und Reifenservice GmbH – Montabaur",
+      "sc": "D_848",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Montabaur",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Peter Müller Reifendienst – Herzogenaurach",
+      "sc": "D_138",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Herzogenaurach",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Pneumaster GmbH – Ludwigsburg",
+      "sc": "D_179",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Ludwigsburg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 1,
+      "kind": "partner",
+      "total": 2,
+      "rate": 50.0
+    },
+    {
+      "name": "PRO TYRES Reifen & Felgenhandel OG – Hard",
+      "sc": "A_829",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Hard",
+      "centerType": "Franchise",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "ProLine GmbH – Freudenstadt",
+      "sc": "D_619",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Freudenstadt",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Protect Car Aslan Ayhan e.U. – Sollenau",
+      "sc": "A_813",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Sollenau",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "PS Autogalerie GmbH – Kirschweiler",
+      "sc": "D_967",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Kirschweiler",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Rad und Reifen Center Haselier GmbH – Geilenkirchen",
+      "sc": "D_882",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Geilenkirchen",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Reifen Albrecht ZwNl. der Gummi Berger Hans Berger GmbH & Co. KG – Arnsberg",
+      "sc": "D_137-12",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Arnsberg",
+      "centerType": "Mixed",
+      "activated": 2,
+      "pending": 0,
+      "kind": "partner",
+      "total": 2,
+      "rate": 100.0
+    },
+    {
+      "name": "Reifen Albrecht ZwNl. der Gummi Berger Hans Berger GmbH & Co. KG – Werl",
+      "sc": "D_137-06",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Werl",
+      "centerType": "Mixed",
+      "activated": 2,
+      "pending": 0,
+      "kind": "partner",
+      "total": 2,
+      "rate": 100.0
+    },
+    {
+      "name": "Reifen-Center Vogt GmbH & Co. KG – Witzenhausen",
+      "sc": "D_897",
+      "state": "Hessen",
+      "region": "DE",
+      "area": "Witzenhausen",
+      "centerType": "Mixed",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Reifen Dahlke GmbH & Co. KG – Koeln",
+      "sc": "D_982",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Koeln",
+      "centerType": "Mixed",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Reifen Farwick – Ahaus",
+      "sc": "D_994",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Ahaus",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Reifen-Geis GmbH – Sulzbach am Main",
+      "sc": "D_841",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Sulzbach am Main",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Reifen Heinzl GmbH – Purkersdorf",
+      "sc": "A_057",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Purkersdorf",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Reifen Jais GmbH – Bischofshofen",
+      "sc": "A_038-03",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Bischofshofen",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 3,
+      "kind": "partner",
+      "total": 3,
+      "rate": 0.0
+    },
+    {
+      "name": "Reifen Jais GmbH – Hall",
+      "sc": "A_038",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Hall",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 3,
+      "kind": "partner",
+      "total": 3,
+      "rate": 0.0
+    },
+    {
+      "name": "Reifen Jais GmbH – Koblach",
+      "sc": "A_038-02",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Koblach",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 3,
+      "kind": "partner",
+      "total": 3,
+      "rate": 0.0
+    },
+    {
+      "name": "Reifen Kotinsky GmbH & Co. KG – Andernach",
+      "sc": "D_874-02",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Andernach",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 3,
+      "kind": "partner",
+      "total": 4,
+      "rate": 25.0
+    },
+    {
+      "name": "Reifen Kotinsky GmbH & Co. KG – Braubach",
+      "sc": "D_874-03",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Braubach",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 3,
+      "kind": "partner",
+      "total": 4,
+      "rate": 25.0
+    },
+    {
+      "name": "Reifen Kotinsky GmbH & Co. KG – Koblenz",
+      "sc": "D_874-04",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Koblenz",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 3,
+      "kind": "partner",
+      "total": 4,
+      "rate": 25.0
+    },
+    {
+      "name": "Reifen Kotinsky GmbH & Co. KG – Plaidt",
+      "sc": "D_874-01",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Plaidt",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 3,
+      "kind": "partner",
+      "total": 4,
+      "rate": 25.0
+    },
+    {
+      "name": "Reifen Lubo GmbH – Wien",
+      "sc": "A_054",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Wien",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Reifen M. Fastner GmbH – Sonthofen",
+      "sc": "D_969",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Sonthofen",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Reifen Meyer GmbH – Saarlouis",
+      "sc": "D_961-01",
+      "state": "Saarland",
+      "region": "DE",
+      "area": "Saarlouis",
+      "centerType": "Mixed",
+      "activated": 0,
+      "pending": 2,
+      "kind": "partner",
+      "total": 2,
+      "rate": 0.0
+    },
+    {
+      "name": "Reifen & Offroad Center Bremen – Bremen",
+      "sc": "D_879",
+      "state": "Bremen",
+      "region": "DE",
+      "area": "Bremen",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Reifen Technik Sezer KG – Wien",
+      "sc": "A_812",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Wien",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Reifen Wiese e.K. – Bretzfeld-Schwabbach",
+      "sc": "D_986",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Bretzfeld-Schwabbach",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Reifenservice Quirmbach eK – Zweibrücken",
+      "sc": "D_230",
+      "state": "Rheinland-Pfalz",
+      "region": "DE",
+      "area": "Zweibrücken",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Reifenservice Zimmer – Wiesentheid",
+      "sc": "D_983",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Wiesentheid",
+      "centerType": "Mixed",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Reparaturservice Afschar KG – Appen",
+      "sc": "D_404",
+      "state": "Schleswig-Holstein",
+      "region": "DE",
+      "area": "Appen",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "RRS Reifen, Räder Schnelldienst GmbH – Hannover",
+      "sc": "D_685",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Hannover",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "RTA Hirscher GmbH – St. Martin am Tennengebirge",
+      "sc": "A_056",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "St. Martin am Tennengebirge",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "SB Reifenservice Sergej Burduzan – Minden",
+      "sc": "D_221",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Minden",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Sevgi Atabay Autocenter – Ibbenbüren",
+      "sc": "D_930",
+      "state": "Nordrhein-Westfalen",
+      "region": "DE",
+      "area": "Ibbenbüren",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "SG Reifen und KFZ-Technik GmbH – Graz",
+      "sc": "A_062",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Graz",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "SRT Schreiber – Erfurt",
+      "sc": "D_229",
+      "state": "Thüringen",
+      "region": "DE",
+      "area": "Erfurt",
+      "centerType": "Mixed",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Stonis Garage GmbH – Talheim",
+      "sc": "D_996",
+      "state": "Baden-Württemberg",
+      "region": "DE",
+      "area": "Talheim",
+      "centerType": "Light",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Tessmann GbR – Landsberg",
+      "sc": "D_977",
+      "state": "Sachsen-Anhalt",
+      "region": "DE",
+      "area": "Landsberg",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
     },
     {
       "name": "Theodor-Heuss-Anlage 12, 68165 Mannheim",
@@ -2453,8 +4846,61 @@
       "centerType": "Unbekannt",
       "activated": 3,
       "pending": 0,
+      "kind": "internal",
       "total": 3,
-      "rate": 100
+      "rate": 100.0
+    },
+    {
+      "name": "Thomas Frankenberger – Karlstadt-Stetten",
+      "sc": "D_178",
+      "state": "Bayern",
+      "region": "DE",
+      "area": "Karlstadt-Stetten",
+      "centerType": "Light",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "TP Automobil Manufaktur – Gänserndorf",
+      "sc": "A_823",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Gänserndorf",
+      "centerType": "Franchise",
+      "activated": 0,
+      "pending": 1,
+      "kind": "partner",
+      "total": 1,
+      "rate": 0.0
+    },
+    {
+      "name": "Wartelsteiner Autobedarf GmbH – Ramsau im Zillertal",
+      "sc": "A_052",
+      "state": "Österreich",
+      "region": "AT",
+      "area": "Ramsau im Zillertal",
+      "centerType": "Franchise",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
+    },
+    {
+      "name": "Werner Brüning GmbH – Ahlhorn",
+      "sc": "D_156",
+      "state": "Niedersachsen",
+      "region": "DE",
+      "area": "Ahlhorn",
+      "centerType": "Heavy",
+      "activated": 1,
+      "pending": 0,
+      "kind": "partner",
+      "total": 1,
+      "rate": 100.0
     }
   ]
 }
