@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Aktivierungsdashboard für das Euromaster Masternet">
+  <title>Masternet Aktivierungsdashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">E</span><span>EUROMASTER</span></div>
+    <div class="updated">Stand: <strong id="updated">–</strong></div>
+  </header>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">MASTERNET-CHALLENGE</p>
+      <h1>Gemeinsam bringen wir<br>jeden Standort ins Masternet.</h1>
+      <p class="lede">Wo steht euer Servicecenter? Die Übersicht zeigt den aktuellen Aktivierungsstand – jede Woche neu.</p>
+    </section>
+
+    <section class="kpis" aria-label="Kennzahlen">
+      <article class="kpi kpi-primary"><span>Aktivierungsquote</span><strong id="overallRate">–</strong><div class="progress"><i id="overallBar"></i></div></article>
+      <article class="kpi"><span>Aktiviert</span><strong id="activated">–</strong><small>von <b id="total">–</b> Mitarbeitenden</small></article>
+      <article class="kpi"><span>Noch nicht registriert</span><strong id="pending">–</strong><small>gemeinsam schaffen wir 100 %</small></article>
+      <article class="kpi"><span>Servicecenter</span><strong id="centerCount">–</strong><small>im aktuellen Vergleich</small></article>
+    </section>
+
+    <section class="panel heat-section">
+      <div class="section-head">
+        <div><p class="eyebrow">HEATMAP</p><h2>Aktivierung nach Bundesland</h2></div>
+        <div class="legend"><span><i class="low"></i>&lt; 40 %</span><span><i class="mid"></i>40–69 %</span><span><i class="high"></i>70–89 %</span><span><i class="full"></i>90–100 %</span></div>
+      </div>
+      <div class="map-layout">
+        <div class="germany-map-wrap">
+          <svg id="germanyMap" class="germany-map" viewBox="0 0 620 720" role="img" aria-label="Deutschlandkarte mit Aktivierungsquoten nach Bundesland"></svg>
+          <div id="mapTooltip" class="map-tooltip" hidden></div>
+        </div>
+        <div id="stateList" class="state-list" aria-label="Bundesländer im Vergleich"></div>
+      </div>
+    </section>
+
+    <section class="split">
+      <article class="panel leaderboard">
+        <div class="section-head"><div><p class="eyebrow">SPITZENGRUPPE</p><h2>Top 10 Servicecenter</h2></div></div>
+        <ol id="leaderboard"></ol>
+      </article>
+      <article class="panel">
+        <div class="section-head"><div><p class="eyebrow">ALLE STANDORTE</p><h2>Center-Übersicht</h2></div></div>
+        <div class="filters">
+          <label><span class="sr-only">Standort suchen</span><input id="search" type="search" placeholder="Standort oder SC-Nummer suchen"></label>
+          <label><span class="sr-only">Bundesland wählen</span><select id="stateFilter"><option value="">Alle Bundesländer</option></select></label>
+        </div>
+        <div id="centerList" class="center-list"></div>
+      </article>
+    </section>
+    <p class="privacy">Es werden ausschließlich aggregierte Standortwerte angezeigt. Keine personenbezogenen Daten.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
