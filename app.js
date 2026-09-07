@@ -25,23 +25,25 @@ function renderPerfectCenters(perfect){
     {label:'Franchise AT',items:perfect.filter(c=>c.kind==='partner'&&c.region==='AT')}
   ];
   const cards=items=>items.length?items.map(c=>`<article class="perfect-card"><span class="perfect-check">✓</span><span><strong>${esc(c.name.replace(/^EUROMASTER\s+/i,''))}</strong><small>${esc(c.sc)} · ${c.total} ${c.total===1?'Person':'Personen'}</small></span><b>100 %</b></article>`).join(''):'<p class="perfect-empty">Aktuell noch kein Servicecenter.</p>';
-  $('.perfect-section').innerHTML=`<details class="perfect-main"><summary><span>Diese Servicecenter sind vollständig aktiviert</span><strong class="perfect-count">${perfect.length} Servicecenter</strong></summary><div class="perfect-groups">${groups.map(g=>`<details class="perfect-group"><summary><span>${g.label}</span><strong>${g.items.length}</strong></summary><div class="perfect-grid">${cards(g.items)}</div></details>`).join('')}</div></details>`;
+  $('.perfect-section').innerHTML=`<div class="perfect-title"><h2>Diese Servicecenter sind vollständig aktiviert</h2><strong class="perfect-count">${perfect.length} Servicecenter</strong></div><div class="perfect-groups">${groups.map(g=>`<details class="perfect-group"><summary><span>${g.label}</span><strong>${g.items.length}</strong></summary><div class="perfect-grid">${cards(g.items)}</div></details>`).join('')}</div>`;
   if(!$('#perfectAccordionStyles')){
     const style=document.createElement('style');style.id='perfectAccordionStyles';style.textContent=`
       .perfect-section{padding:0;margin-bottom:18px;overflow:hidden}
-      .perfect-main>summary,.perfect-group>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px}
-      .perfect-main>summary::-webkit-details-marker,.perfect-group>summary::-webkit-details-marker{display:none}
-      .perfect-main>summary{padding:22px 24px;color:var(--blue);font-size:1.35rem;font-weight:800}
-      .perfect-main>summary:before,.perfect-group>summary:before{content:'›';flex:none;transition:transform .2s;color:var(--cyan);font-size:1.4em}
-      .perfect-main>summary>span,.perfect-group>summary>span{flex:1}
-      .perfect-main[open]>summary:before,.perfect-group[open]>summary:before{transform:rotate(90deg)}
-      .perfect-groups{padding:0 24px 24px;display:grid;gap:10px}
+      .perfect-title{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 24px}
+      .perfect-title h2{margin:0;color:var(--blue);font-size:1.35rem}
+      .perfect-group>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:10px}
+      .perfect-group>summary::-webkit-details-marker{display:none}
+      .perfect-group>summary:before{content:'›';flex:none;transition:transform .2s;color:var(--cyan);font-size:1.4em}
+      .perfect-group>summary>span{flex:1}
+      .perfect-group[open]>summary:before{transform:rotate(90deg)}
+      .perfect-groups{padding:0 24px 24px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:start}
       .perfect-group{border:1px solid var(--line);border-radius:12px;background:#f8fbfe;overflow:hidden}
       .perfect-group>summary{padding:13px 15px;font-weight:800;color:var(--blue)}
       .perfect-group>summary>strong{display:grid;place-items:center;min-width:28px;height:28px;padding:0 8px;border-radius:99px;background:#e8f7ef;color:#168455;font-size:.78rem}
-      .perfect-group .perfect-grid{padding:0 12px 12px}
+      .perfect-group .perfect-grid{padding:0 12px 12px;grid-template-columns:1fr}
       .perfect-empty{grid-column:1/-1;margin:0;padding:14px;color:var(--muted);font-size:.8rem}
-      @media(max-width:560px){.perfect-main>summary{padding:18px;font-size:1rem}.perfect-main .perfect-count{font-size:.7rem}.perfect-groups{padding:0 18px 18px}}
+      @media(max-width:900px){.perfect-groups{grid-template-columns:1fr}}
+      @media(max-width:560px){.perfect-title{padding:18px}.perfect-title h2{font-size:1rem}.perfect-title .perfect-count{font-size:.7rem}.perfect-groups{padding:0 18px 18px}}
     `;document.head.appendChild(style);
   }
 }
