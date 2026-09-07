@@ -30,6 +30,8 @@ async function render(data){
   let selectedKey='';
   function list(){const q=$('#search').value.trim().toLowerCase();const st=$('#stateFilter').value;const rows=comparable.filter(c=>(!st||regionName(c)===st)&&(!q||searchable(c).includes(q))).sort((a,b)=>b.rate-a.rate||a.name.localeCompare(b.name,'de-DE'));$('#centerList').innerHTML=rows.length?rows.map(c=>`<div class="center-row ${key(c)===selectedKey?'selected-location':''}" data-center="${esc(key(c))}"><span class="center-title">${esc(c.name)}<small>${c.sc?'SC '+esc(c.sc)+' · ':''}${c.activated} von ${c.total} aktiviert · ${esc(groupName(c))}</small></span><span class="mini-progress"><i style="width:${c.rate}%;background:${color(c.rate)}"></i></span><span class="center-rate">${c.rate===100?'<em class="achievement">100 %</em>':pct(c.rate)}</span></div>`).join(''):'<p class="empty">Kein Standort gefunden.</p>'}
   $('#search').addEventListener('input',list);$('#stateFilter').addEventListener('change',list);list();
+  function syncOverviewHeight(){const overview=$('#centerList');if(innerWidth<=900){overview.style.height='';overview.style.maxHeight='';return}const ranking=$('#leaderboard'),filters=$('.filters'),filterStyle=getComputedStyle(filters),filterBlock=filters.offsetHeight+parseFloat(filterStyle.marginBottom||0),height=Math.max(320,ranking.offsetHeight-filterBlock);overview.style.height=`${height}px`;overview.style.maxHeight=`${height}px`}
+  requestAnimationFrame(syncOverviewHeight);window.addEventListener('resize',syncOverviewHeight);
 
   const quick=$('#quickSearch'),suggestions=$('#quickSuggestions'),spotlight=$('#spotlight');
   function matches(query){return comparable.filter(c=>searchable(c).includes(query.toLowerCase())).sort((a,b)=>a.name.localeCompare(b.name,'de-DE')).slice(0,8)}
