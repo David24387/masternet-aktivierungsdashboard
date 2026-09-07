@@ -1,13 +1,25 @@
 {
   "updated": "2026-09-07",
   "summary": {
-    "centers": 199,
-    "total": 1475,
-    "activated": 886,
-    "pending": 589,
-    "rate": 60.1
+    "centers": 204,
+    "total": 2015,
+    "activated": 1262,
+    "pending": 753,
+    "rate": 62.6
   },
   "centers": [
+    {
+      "name": "Bucharest Headquarters",
+      "sc": "HQ",
+      "state": "Nicht zugeordnet",
+      "region": "Nicht zugeordnet",
+      "area": "Above Center",
+      "centerType": "Unbekannt",
+      "activated": 11,
+      "pending": 1,
+      "total": 12,
+      "rate": 91.7
+    },
     {
       "name": "EUROMASTER AACHEN",
       "sc": "D_325",
@@ -27,10 +39,10 @@
       "region": "Nicht zugeordnet",
       "area": "Above Center",
       "centerType": "Unbekannt",
-      "activated": 1,
-      "pending": 0,
-      "total": 1,
-      "rate": 100
+      "activated": 7,
+      "pending": 1,
+      "total": 8,
+      "rate": 87.5
     },
     {
       "name": "EUROMASTER ANSBACH",
@@ -687,10 +699,10 @@
       "region": "Nicht zugeordnet",
       "area": "Above Center",
       "centerType": "Unbekannt",
-      "activated": 28,
-      "pending": 2,
-      "total": 30,
-      "rate": 93.3
+      "activated": 123,
+      "pending": 5,
+      "total": 128,
+      "rate": 96.1
     },
     {
       "name": "EUROMASTER GAIMERSHEIM",
@@ -1191,9 +1203,9 @@
       "region": "Nicht zugeordnet",
       "area": "Above Center",
       "centerType": "Unbekannt",
-      "activated": 1,
+      "activated": 3,
       "pending": 0,
-      "total": 1,
+      "total": 3,
       "rate": 100
     },
     {
@@ -1443,10 +1455,10 @@
       "region": "Nicht zugeordnet",
       "area": "Above Center",
       "centerType": "Unbekannt",
-      "activated": 34,
-      "pending": 21,
-      "total": 55,
-      "rate": 61.8
+      "activated": 152,
+      "pending": 27,
+      "total": 179,
+      "rate": 84.9
     },
     {
       "name": "EUROMASTER MANNHEIM-NECKERAU C",
@@ -2325,6 +2337,18 @@
       "rate": 66.7
     },
     {
+      "name": "EUROMASTER WIEN OFFICE",
+      "sc": "HQ-Wien",
+      "state": "Wien",
+      "region": "Nicht zugeordnet",
+      "area": "Above Center",
+      "centerType": "Unbekannt",
+      "activated": 6,
+      "pending": 0,
+      "total": 6,
+      "rate": 100
+    },
+    {
       "name": "EUROMASTER WIESBADEN",
       "sc": "D_557",
       "state": "Hessen",
@@ -2395,6 +2419,42 @@
       "pending": 1,
       "total": 7,
       "rate": 85.7
+    },
+    {
+      "name": "MGM for Netherlands",
+      "sc": "#N/A",
+      "state": "Nicht zugeordnet",
+      "region": "Nicht zugeordnet",
+      "area": "Above Center",
+      "centerType": "Unbekannt",
+      "activated": 1,
+      "pending": 0,
+      "total": 1,
+      "rate": 100
+    },
+    {
+      "name": "Nicht zugeordnet",
+      "sc": "#N/A",
+      "state": "Nicht zugeordnet",
+      "region": "Nicht zugeordnet",
+      "area": "Nicht zugeordnet",
+      "centerType": "Unbekannt",
+      "activated": 134,
+      "pending": 153,
+      "total": 287,
+      "rate": 46.7
+    },
+    {
+      "name": "Theodor-Heuss-Anlage 12, 68165 Mannheim",
+      "sc": "",
+      "state": "Nicht zugeordnet",
+      "region": "Nicht zugeordnet",
+      "area": "Nicht zugeordnet",
+      "centerType": "Unbekannt",
+      "activated": 3,
+      "pending": 0,
+      "total": 3,
+      "rate": 100
     }
   ]
 }
