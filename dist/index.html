@@ -31,7 +31,13 @@
         <div><p class="eyebrow">HEATMAP</p><h2>Aktivierung nach Bundesland</h2></div>
         <div class="legend"><span><i class="low"></i>&lt; 40 %</span><span><i class="mid"></i>40–69 %</span><span><i class="high"></i>70–89 %</span><span><i class="full"></i>90–100 %</span></div>
       </div>
-      <div id="stateGrid" class="state-grid"></div>
+      <div class="map-layout">
+        <div class="germany-map-wrap">
+          <svg id="germanyMap" class="germany-map" viewBox="0 0 620 720" role="img" aria-label="Deutschlandkarte mit Aktivierungsquoten nach Bundesland"></svg>
+          <div id="mapTooltip" class="map-tooltip" hidden></div>
+        </div>
+        <div id="stateList" class="state-list" aria-label="Bundesländer im Vergleich"></div>
+      </div>
     </section>
 
     <section class="split">
