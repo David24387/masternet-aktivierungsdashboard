@@ -1,14 +1,20 @@
 const $=s=>document.querySelector(s);const fmt=n=>new Intl.NumberFormat('de-DE').format(n);const pct=n=>`${Number(n).toLocaleString('de-DE',{minimumFractionDigits:1,maximumFractionDigits:1})} %`;
 function color(rate){return rate>=90?'var(--green)':rate>=70?'var(--yellow)':rate>=40?'var(--amber)':'var(--red)'}
+const canonicalRegions={
+  'badenwurttemberg':'Baden-Württemberg','bayern':'Bayern','berlin':'Berlin','brandenburg':'Brandenburg','bremen':'Bremen','hamburg':'Hamburg','hessen':'Hessen',
+  'mecklenburgvorpommern':'Mecklenburg-Vorpommern','niedersachsen':'Niedersachsen','nordrheinwestfalen':'Nordrhein-Westfalen','rheinlandpfalz':'Rheinland-Pfalz',
+  'saarland':'Saarland','sachsen':'Sachsen','sachsenanhalt':'Sachsen-Anhalt','schleswigholstein':'Schleswig-Holstein','thuringen':'Thüringen'
+};
+const austrianRegionKeys=new Set(['osterreich','wien','niederosterreich','oberosterreich','burgenland','karnten','salzburg','steiermark','tirol','vorarlberg']);
+function regionKey(value){return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'')}
+function canonicalRegion(state,region){const key=regionKey(state);return region==='AT'||austrianRegionKeys.has(key)?'Österreich':(canonicalRegions[key]||String(state||'').trim())}
 async function render(data){
   const comparable=data.centers.filter(c=>c.kind!=='unmatched'&&c.name!=='Nicht zugeordnet');
   $('#updated').textContent=new Date(`${data.updated}T12:00:00`).toLocaleDateString('de-DE');
   $('#overallRate').textContent=pct(data.summary.rate);$('#overallBar').style.width=`${data.summary.rate}%`;
   $('#activated').textContent=fmt(data.summary.activated);$('#pending').textContent=fmt(data.summary.pending);$('#total').textContent=fmt(data.summary.total);$('#centerCount').textContent=fmt(comparable.length);
   if(data.mapping?.unmatchedPartnerUsers)$('#mappingNote').textContent=`${data.mapping.matchedPartnerUsers} von ${data.mapping.partnerUsers} Partnerkonten sind bereits Partnerstandorten zugeordnet. ${data.mapping.unmatchedPartnerUsers} Konten bleiben bis zur eindeutigen Klärung außerhalb des Standortvergleichs.`;
-  const austrianStates=new Set(['Österreich','Wien','Niederösterreich','Oberösterreich','Burgenland','Kärnten','Salzburg','Steiermark','Tirol','Vorarlberg']);
-  const stateAliases={'Baden-Wurttemberg':'Baden-Württemberg','Mecklenburg Vorpommern':'Mecklenburg-Vorpommern','Thuringen':'Thüringen'};
-  const regionName=c=>c.region==='AT'||austrianStates.has(c.state)?'Österreich':(stateAliases[c.state]||c.state);
+  const regionName=c=>canonicalRegion(c.state,c.region);
   const states=Object.values(comparable.filter(c=>regionName(c)&&regionName(c)!=='Nicht zugeordnet').reduce((a,c)=>{const k=regionName(c);a[k]??={name:k,activated:0,total:0,centers:0};a[k].activated+=c.activated;a[k].total+=c.total;a[k].centers++;return a},{})).map(s=>({...s,rate:s.total?s.activated/s.total*100:0})).sort((a,b)=>b.rate-a.rate);
   $('#stateList').innerHTML=states.map(s=>`<article class="state-row"><i class="state-dot" style="background:${color(s.rate)}"></i><strong>${esc(s.name)}</strong><span>${pct(s.rate)}</span></article>`).join('');
   await drawMap(states);
@@ -51,7 +57,6 @@ function renderPerfectCenters(perfect){
 }
 async function drawMap(states){
   const geo=await fetch('germany-states.geo.json').then(r=>r.json());
-  const aliases={'Baden-Wurttemberg':'Baden-Württemberg','Mecklenburg Vorpommern':'Mecklenburg-Vorpommern','Thuringen':'Thüringen'};
   const byName=Object.fromEntries(states.map(s=>[s.name,s]));
   const rings=[];geo.features.forEach(f=>walk(f.geometry.coordinates,rings));
   const longitudeFactor=Math.cos(51*Math.PI/180);
@@ -59,7 +64,8 @@ async function drawMap(states){
   const pad=32,w=620,h=720,scale=Math.min((w-2*pad)/(maxX-minX),(h-2*pad)/(maxY-minY));
   const project=([x,y])=>[pad+(x*longitudeFactor-minX)*scale,h-pad-(y-minY)*scale],svg=$('#germanyMap'),tip=$('#mapTooltip');
   for(const f of geo.features){
-    const state=byName[aliases[f.properties.name]||f.properties.name]||{name:f.properties.name,rate:0,activated:0,total:0};
+    const canonicalName=canonicalRegion(f.properties.name);
+    const state=byName[canonicalName]||{name:canonicalName,rate:0,activated:0,total:0};
     const local=[];walk(f.geometry.coordinates,local);
     const d=local.map(r=>'M'+r.map(p=>project(p).map(n=>n.toFixed(1)).join(',')).join('L')+'Z').join('');
     const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d',d);path.setAttribute('fill',color(state.rate));path.setAttribute('class','map-state');path.setAttribute('tabindex','0');path.setAttribute('aria-label',`${state.name}: ${pct(state.rate)}`);
