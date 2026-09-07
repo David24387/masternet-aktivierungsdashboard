@@ -36,7 +36,7 @@ async function render(data){
   function hideSuggestions(){suggestions.hidden=true;quick.setAttribute('aria-expanded','false')}
   function clearSelection(){selectedKey='';spotlight.hidden=true;spotlight.innerHTML='';const params=new URLSearchParams(location.search);params.delete('standort');const query=params.toString();history.replaceState(null,'',`${location.pathname}${query?'?'+query:''}${location.hash}`);list()}
   function showSuggestions(){const q=quick.value.trim();if(!q){hideSuggestions();clearSelection();return}const found=matches(q);suggestions.innerHTML=found.length?found.map(c=>`<button type="button" data-key="${esc(key(c))}"><strong>${esc(c.name)}</strong><span>${c.sc?'SC '+esc(c.sc)+' · ':''}${esc(c.area||regionName(c)||'')} · ${esc(groupName(c))}</span></button>`).join(''):'<p>Kein Standort gefunden.</p>';suggestions.hidden=false;quick.setAttribute('aria-expanded','true')}
-  quick.addEventListener('input',showSuggestions);
+  quick.addEventListener('input',()=>{if(selectedKey)clearSelection();showSuggestions()});
   quick.addEventListener('keydown',e=>{if(e.key==='Enter'){const first=matches(quick.value.trim())[0];if(first){e.preventDefault();selectLocation(first,true)}}});
   suggestions.addEventListener('click',e=>{const button=e.target.closest('button[data-key]');if(button)selectLocation(comparable.find(c=>key(c)===button.dataset.key),true)});
   document.addEventListener('click',e=>{if(!e.target.closest('.site-finder'))hideSuggestions()});
