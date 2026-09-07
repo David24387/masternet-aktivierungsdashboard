@@ -67,3 +67,4 @@ const data = {
 };
 fs.writeFileSync(output, JSON.stringify(data, null, 2) + '\n');
 console.log(`Anonymisierte Daten erstellt: ${centers.length} Standorte, ${total} Personen.`);
+

@@ -22,3 +22,4 @@ Die Verarbeitung findet ausschließlich lokal im Browser statt.
 - `dist/app.js` – Darstellung, Suche und Filter
 - `dist/data.json` – anonymisierte Wochenwerte
 - `dist/update.html` – lokaler, sicherer CSV-Konverter
+
