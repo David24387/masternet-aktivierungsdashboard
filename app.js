@@ -12,11 +12,37 @@ async function render(data){
   const ranked=[...comparable].sort((a,b)=>b.rate-a.rate||b.total-a.total||a.name.localeCompare(b.name,'de-DE')).slice(0,10);
   $('#leaderboard').innerHTML=ranked.map((c,i)=>`<li><span class="rank">${i+1}</span><span class="place">${esc(c.name)}<small>${c.sc?'SC '+esc(c.sc)+' · ':''}${c.activated}/${c.total} aktiviert</small></span><span class="rate">${pct(c.rate)}</span></li>`).join('');
   const perfect=comparable.filter(c=>c.sc&&c.total>0&&c.activated===c.total&&!/HQ|#N\/A/i.test(c.sc)).sort((a,b)=>a.name.localeCompare(b.name,'de-DE'));
-  $('#perfectCount').textContent=`${perfect.length} Servicecenter`;
-  $('#perfectCenters').innerHTML=perfect.map(c=>`<article class="perfect-card"><span class="perfect-check">✓</span><span><strong>${esc(c.name.replace(/^EUROMASTER\s+/i,''))}</strong><small>${esc(c.sc)} · ${c.total} ${c.total===1?'Person':'Personen'}</small></span><b>100 %</b></article>`).join('');
+  renderPerfectCenters(perfect);
   const names=[...new Set(comparable.map(c=>c.state))].sort((a,b)=>a.localeCompare(b,'de-DE'));$('#stateFilter').innerHTML+=[...names].map(s=>`<option>${esc(s)}</option>`).join('');
   function list(){const q=$('#search').value.trim().toLowerCase();const st=$('#stateFilter').value;const rows=comparable.filter(c=>(!st||c.state===st)&&(!q||`${c.name} ${c.sc}`.toLowerCase().includes(q))).sort((a,b)=>b.rate-a.rate||a.name.localeCompare(b.name,'de-DE'));$('#centerList').innerHTML=rows.length?rows.map(c=>`<div class="center-row"><span class="center-title">${esc(c.name)}<small>${c.sc?'SC '+esc(c.sc)+' · ':''}${c.activated} von ${c.total} aktiviert</small></span><span class="mini-progress"><i style="width:${c.rate}%;background:${color(c.rate)}"></i></span><span class="center-rate">${pct(c.rate)}</span></div>`).join(''):'<p class="empty">Kein Standort gefunden.</p>'}
   $('#search').addEventListener('input',list);$('#stateFilter').addEventListener('change',list);list();
+}
+function renderPerfectCenters(perfect){
+  const groups=[
+    {label:'Equity',items:perfect.filter(c=>c.kind!=='partner')},
+    {label:'Franchise DE',items:perfect.filter(c=>c.kind==='partner'&&c.region==='DE')},
+    {label:'Franchise AT',items:perfect.filter(c=>c.kind==='partner'&&c.region==='AT')}
+  ];
+  const cards=items=>items.length?items.map(c=>`<article class="perfect-card"><span class="perfect-check">✓</span><span><strong>${esc(c.name.replace(/^EUROMASTER\s+/i,''))}</strong><small>${esc(c.sc)} · ${c.total} ${c.total===1?'Person':'Personen'}</small></span><b>100 %</b></article>`).join(''):'<p class="perfect-empty">Aktuell noch kein Servicecenter.</p>';
+  $('.perfect-section').innerHTML=`<details class="perfect-main"><summary><span>Diese Servicecenter sind vollständig aktiviert</span><strong class="perfect-count">${perfect.length} Servicecenter</strong></summary><div class="perfect-groups">${groups.map(g=>`<details class="perfect-group"><summary><span>${g.label}</span><strong>${g.items.length}</strong></summary><div class="perfect-grid">${cards(g.items)}</div></details>`).join('')}</div></details>`;
+  if(!$('#perfectAccordionStyles')){
+    const style=document.createElement('style');style.id='perfectAccordionStyles';style.textContent=`
+      .perfect-section{padding:0;margin-bottom:18px;overflow:hidden}
+      .perfect-main>summary,.perfect-group>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px}
+      .perfect-main>summary::-webkit-details-marker,.perfect-group>summary::-webkit-details-marker{display:none}
+      .perfect-main>summary{padding:22px 24px;color:var(--blue);font-size:1.35rem;font-weight:800}
+      .perfect-main>summary:before,.perfect-group>summary:before{content:'›';flex:none;transition:transform .2s;color:var(--cyan);font-size:1.4em}
+      .perfect-main>summary>span,.perfect-group>summary>span{flex:1}
+      .perfect-main[open]>summary:before,.perfect-group[open]>summary:before{transform:rotate(90deg)}
+      .perfect-groups{padding:0 24px 24px;display:grid;gap:10px}
+      .perfect-group{border:1px solid var(--line);border-radius:12px;background:#f8fbfe;overflow:hidden}
+      .perfect-group>summary{padding:13px 15px;font-weight:800;color:var(--blue)}
+      .perfect-group>summary>strong{display:grid;place-items:center;min-width:28px;height:28px;padding:0 8px;border-radius:99px;background:#e8f7ef;color:#168455;font-size:.78rem}
+      .perfect-group .perfect-grid{padding:0 12px 12px}
+      .perfect-empty{grid-column:1/-1;margin:0;padding:14px;color:var(--muted);font-size:.8rem}
+      @media(max-width:560px){.perfect-main>summary{padding:18px;font-size:1rem}.perfect-main .perfect-count{font-size:.7rem}.perfect-groups{padding:0 18px 18px}}
+    `;document.head.appendChild(style);
+  }
 }
 async function drawMap(states){
   const geo=await fetch('germany-states.geo.json').then(r=>r.json());
