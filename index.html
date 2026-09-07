@@ -11,17 +11,23 @@
   <main>
     <section class="page-head">
       <div>
-        <h1>Wo steht euer Servicecenter?</h1>
-        <p>Sucht euren Standort, vergleicht eure Aktivierungsquote mit anderen Centern und schaut, wer die 100&nbsp;% bereits erreicht hat.</p>
+        <h1>Wo steht euer Standort?</h1>
+        <p>Sucht euren Standort, vergleicht eure Aktivierungsquote und schaut, wer die 100&nbsp;% bereits erreicht hat.</p>
       </div>
-      <div class="date-badge">Stand: <strong id="updated">–</strong></div>
+      <div class="date-badge">Datenstand: <strong id="updated">–</strong></div>
     </section>
+
+    <section class="site-finder" aria-label="Eigenen Standort suchen">
+      <label for="quickSearch"><span class="search-symbol" aria-hidden="true">⌕</span><span class="sr-only">Eigenen Standort suchen</span><input id="quickSearch" type="search" placeholder="Eigenen Standort, Ort oder SC-Nummer suchen …" autocomplete="off" aria-controls="quickSuggestions" aria-expanded="false"></label>
+      <div id="quickSuggestions" class="suggestions" hidden></div>
+    </section>
+    <section id="spotlight" class="panel spotlight" aria-live="polite" hidden></section>
 
     <section class="kpis" aria-label="Kennzahlen">
       <article class="kpi kpi-primary"><span>Aktivierungsquote</span><strong id="overallRate">–</strong><div class="progress"><i id="overallBar"></i></div></article>
       <article class="kpi"><span>Aktiviert</span><strong id="activated">–</strong><small>von <b id="total">–</b> Mitarbeitenden</small></article>
       <article class="kpi"><span>Noch nicht registriert</span><strong id="pending">–</strong><small>gemeinsam schaffen wir 100 %</small></article>
-      <article class="kpi"><span>Standorte im Vergleich</span><strong id="centerCount">–</strong><small>inklusive zentraler Bereiche</small></article>
+      <article class="kpi"><span>Standorte im Vergleich</span><strong id="centerCount">–</strong><small>Equity und Franchise</small></article>
     </section>
     <p id="mappingNote" class="mapping-note"></p>
 
@@ -32,16 +38,16 @@
       </div>
       <div class="map-layout">
         <div class="germany-map-wrap">
-          <svg id="germanyMap" class="germany-map" viewBox="0 0 620 720" role="img" aria-label="Deutschlandkarte mit Aktivierungsquoten nach Bundesland"></svg>
+          <svg id="germanyMap" class="germany-map" viewBox="0 0 620 720" role="img" aria-label="Deutschlandkarte mit Aktivierungsquoten nach Region"></svg>
           <div id="mapTooltip" class="map-tooltip" hidden></div>
         </div>
-        <div id="stateList" class="state-list" aria-label="Bundesländer im Vergleich"></div>
+        <div id="stateList" class="state-list" aria-label="Regionen im Vergleich"></div>
       </div>
     </section>
 
     <section class="panel perfect-section">
       <div class="section-head">
-        <div><p class="eyebrow">100 % ERREICHT</p><h2>Diese Servicecenter sind vollständig aktiviert</h2></div>
+        <div><p class="eyebrow">100 % ERREICHT</p><h2>Diese Standorte sind vollständig aktiviert</h2></div>
         <strong id="perfectCount" class="perfect-count">–</strong>
       </div>
       <div id="perfectCenters" class="perfect-grid"></div>
@@ -55,13 +61,13 @@
       <article class="panel">
         <div class="section-head"><div><p class="eyebrow">ALLE STANDORTE</p><h2>Standortübersicht</h2></div></div>
         <div class="filters">
-          <label><span class="sr-only">Standort suchen</span><input id="search" type="search" placeholder="Standort oder SC-Nummer suchen"></label>
+          <label><span class="sr-only">Standort suchen</span><input id="search" type="search" placeholder="Standort, Ort oder SC-Nummer suchen"></label>
           <label><span class="sr-only">Region wählen</span><select id="stateFilter"><option value="">Alle Regionen</option></select></label>
         </div>
         <div id="centerList" class="center-list"></div>
       </article>
     </section>
-    <p class="privacy">Es werden ausschließlich aggregierte Standortwerte angezeigt. Keine personenbezogenen Daten.</p>
+    <p class="privacy">Es werden ausschließlich aggregierte Standortwerte angezeigt – keine personenbezogenen Daten.</p>
   </main>
   <script src="app.js"></script>
 </body>
