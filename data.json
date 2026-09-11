@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-11",
   "summary": {
     "centers": 432,
-    "total": 2015,
-    "activated": 1262,
-    "pending": 753,
-    "rate": 62.6
+    "total": 2017,
+    "activated": 1280,
+    "pending": 737,
+    "rate": 63.5
   },
   "mapping": {
     "partnerUsers": 278,
@@ -25,7 +25,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "AMS Reese GmbH – Regensburg",
@@ -38,7 +38,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "AMS Reese GmbH – Schweinfurt",
@@ -51,7 +51,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "ATC KFZ-Meisterbetrieb GmbH – Mistelbach",
@@ -64,7 +64,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Auohaus Roeb GmbH – Nideggen",
@@ -77,7 +77,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Auto & Reifenservice Reff – Landshut",
@@ -90,7 +90,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Auto Aigner GmbH – Gresten",
@@ -103,7 +103,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Auto Auer Ges. m.b.H – St. Pölten",
@@ -116,7 +116,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Auto Auer Ges. m.b.H – Strazdorf",
@@ -129,7 +129,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Auto Auer Reifenzentrum GmbH – Wien",
@@ -142,7 +142,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Auto Doktor GmbH – Selingenstadt",
@@ -155,7 +155,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Auto Fuchs – Regenstauf",
@@ -168,7 +168,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Auto Grunau GmbH – Rositz",
@@ -181,7 +181,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Auto Haunschmid GmbH – Wien",
@@ -194,7 +194,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Auto Leikeim GmbH – Bamberg",
@@ -207,7 +207,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Auto Louis – Kirchheim unter Teck",
@@ -220,7 +220,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Auto Minor e.K. – Miehlen",
@@ -233,7 +233,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Auto Novak e.U. – Zwentendorf",
@@ -246,7 +246,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Auto Oberfrank KFZ-Meisterbetrieb – Mertingen",
@@ -259,7 +259,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Auto Schulte GmbH – Cloppenburg",
@@ -272,7 +272,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Auto-Bottke GmbH – Helmstedt",
@@ -285,7 +285,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Auto-Kompetenz-Center Dreisbach e.K. – Soest",
@@ -298,7 +298,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 2,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "Auto-Seeger GmbH – Reinheim",
@@ -311,7 +311,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autobetriebe Lehmann GmbH – Bandenitz",
@@ -324,7 +324,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autobetriebe Lehmann GmbH – Lützow",
@@ -337,7 +337,7 @@
       "pending": 2,
       "kind": "partner",
       "total": 2,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autobetriebe Lehmann GmbH – Schwerin",
@@ -350,7 +350,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autocenter Enders GmbH – Tüßling",
@@ -363,7 +363,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autofit Farge GmbH – Bremen",
@@ -376,7 +376,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Büchl GmbH – St. Florian",
@@ -389,7 +389,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Büchl GmbH – Tumeltsham",
@@ -402,7 +402,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus Eichhorn – Ebersberg",
@@ -415,7 +415,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus Englhart GmbH – Beyharting",
@@ -428,7 +428,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Erdberg Reinhard Lehner GmbH – Wien",
@@ -441,7 +441,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus G. Krieger GmbH – Schechingen",
@@ -454,7 +454,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Gallersdörfer GmbH & Co.KG – Gangkofen",
@@ -467,7 +467,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Gierten GmbH – Langenfeld",
@@ -480,7 +480,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus Gross GmbH – Amberg",
@@ -493,7 +493,7 @@
       "pending": 2,
       "kind": "partner",
       "total": 2,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Gross GmbH – Paulsdorf",
@@ -506,7 +506,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus Hirsch – Schwäbisch Hall",
@@ -519,7 +519,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Hochreiter GmbH & Co. KG – Trostberg",
@@ -532,7 +532,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus Iser GmbH – Pfungstadt",
@@ -545,7 +545,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus Katz KG – Karlsruhe",
@@ -558,7 +558,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Lau in der Probstei GmbH – Schönberg",
@@ -571,7 +571,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus Leikeim GmbH – Marktzeuln",
@@ -584,7 +584,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Mezger GmbH – Appenweier",
@@ -597,7 +597,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 2,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus Mezger GmbH – Oberkirch",
@@ -610,7 +610,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus Mühlenhort GmbH – Kritzow",
@@ -623,7 +623,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 2,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "Autohaus Nothhelfer GmbH & Co.KG – Rottweil",
@@ -636,7 +636,7 @@
       "pending": 2,
       "kind": "partner",
       "total": 2,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Ortner GmbH – Villach",
@@ -649,7 +649,7 @@
       "pending": 4,
       "kind": "partner",
       "total": 4,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Schick GmbH & Co. KG – Kirchdorf am Inn",
@@ -662,7 +662,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Sorg GmbH – Lorch",
@@ -675,7 +675,7 @@
       "pending": 2,
       "kind": "partner",
       "total": 2,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Sorg GmbH – Schwäbisch-Gmünd",
@@ -688,7 +688,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Standard RK GmbH – Stockerau",
@@ -701,7 +701,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Steinke GmbH – Arnsberg",
@@ -714,7 +714,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus Tilli – Kaltenkirchen",
@@ -727,7 +727,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Voss GmbH& Co.KG – Rosendahl",
@@ -740,7 +740,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autohaus Walch GmbH – Traunstein",
@@ -753,7 +753,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 2,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autohaus Werner GmbH – Weyhe-Leeste",
@@ -766,7 +766,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Automobile Zeitz GmbH – Zeitz",
@@ -779,7 +779,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Automol GmbH – Bottrop",
@@ -792,7 +792,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autopoint Zeven & Glas Center – Zeven",
@@ -805,7 +805,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "AutoProfi Turck – Halver",
@@ -818,7 +818,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autoservice Gaedicke – Trittau",
@@ -831,7 +831,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autoservice Güstrow GmbH – Güstrow",
@@ -844,7 +844,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autoservice Prima – Bad Oldesloe",
@@ -857,7 +857,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autoservice Valder UG – Sinzig",
@@ -870,7 +870,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autoservice Weiß – Pelm",
@@ -883,7 +883,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autoservice Zivkovic – Salzgitter",
@@ -896,7 +896,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "AutoServiceZentrum Germania GmbH – Göppingen",
@@ -909,7 +909,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autoshop Ruhdorfer e.U. – Deutschlandsberg",
@@ -922,7 +922,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autotechnik Ickert – Limburg an der Lahn",
@@ -935,7 +935,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autozentrum Bläse – Hoyerswerda",
@@ -948,7 +948,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Autozentrum Niesky GmbH – Niesky",
@@ -961,7 +961,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Autozentrum Schäfer GmbH – Maintal",
@@ -974,7 +974,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "AWK GmbH Autowerkstatt Kienberger – Gerolzhofen",
@@ -987,7 +987,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "AWK GmbH Autowerkstatt Kienberger – Prichsenstadt",
@@ -1000,7 +1000,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Banana Wheels GmbH – Rosbach vor der Höhe",
@@ -1013,7 +1013,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Baumi KFZ Technik GmbH – Wolfsberg",
@@ -1026,7 +1026,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "BB Die Autowerkstatt GmbH – Raubach",
@@ -1039,7 +1039,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Bosch Car Service Daube – Buchholz",
@@ -1052,7 +1052,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "BS Autotechnik – Riedlingen",
@@ -1065,7 +1065,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Bucharest Headquarters",
@@ -1091,7 +1091,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Cartec-24 Apolda GmbH & Co.KG – Apolda",
@@ -1104,7 +1104,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Christian Kautz, Autoteile e.K. – Celle",
@@ -1117,7 +1117,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Dehnbostel KG – Soltau",
@@ -1130,7 +1130,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Demir Reifen- & Autoservice – Raunheim",
@@ -1143,7 +1143,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Diewo OG – Buchkirchen",
@@ -1156,7 +1156,7 @@
       "pending": 3,
       "kind": "partner",
       "total": 3,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Ertugrul Özsevgec Reifenservice – Siegen",
@@ -1169,7 +1169,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Euro-Reifen Kotulek GmbH – Oeynhausen",
@@ -1182,7 +1182,7 @@
       "pending": 3,
       "kind": "partner",
       "total": 4,
-      "rate": 25
+      "rate": 25.0
     },
     {
       "name": "EUROMASTER AACHEN",
@@ -1204,11 +1204,11 @@
       "region": "Nicht zugeordnet",
       "area": "Above Center",
       "centerType": "Unbekannt",
-      "activated": 7,
+      "activated": 6,
       "pending": 1,
       "kind": "internal",
-      "total": 8,
-      "rate": 87.5
+      "total": 7,
+      "rate": 85.7
     },
     {
       "name": "EUROMASTER ANSBACH",
@@ -1234,7 +1234,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER BAD CAMBERG",
@@ -1247,7 +1247,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER BAD SCHWARTAU",
@@ -1299,7 +1299,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 10,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER BERLIN-ALT-HOHENS.",
@@ -1325,7 +1325,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER BERLIN-LICHTENBERG",
@@ -1364,7 +1364,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER BIBERACH A. D. RISS",
@@ -1373,11 +1373,11 @@
       "region": "Süd",
       "area": "RL_14",
       "centerType": "Mixed",
-      "activated": 6,
+      "activated": 7,
       "pending": 3,
       "kind": "internal",
-      "total": 9,
-      "rate": 66.7
+      "total": 10,
+      "rate": 70.0
     },
     {
       "name": "EUROMASTER BIELEFELD",
@@ -1390,7 +1390,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER BOEBLINGEN",
@@ -1399,11 +1399,11 @@
       "region": "Süd",
       "area": "RL_12",
       "centerType": "Light",
-      "activated": 6,
+      "activated": 5,
       "pending": 2,
       "kind": "internal",
-      "total": 8,
-      "rate": 75
+      "total": 7,
+      "rate": 71.4
     },
     {
       "name": "EUROMASTER BONN-FRIESDORF",
@@ -1416,7 +1416,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 2,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER BONN-LIMPERICH",
@@ -1425,11 +1425,11 @@
       "region": "Nicht zugeordnet",
       "area": "Nicht zugeordnet",
       "centerType": "Unbekannt",
-      "activated": 4,
+      "activated": 3,
       "pending": 3,
       "kind": "internal",
-      "total": 7,
-      "rate": 57.1
+      "total": 6,
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER BORKEN",
@@ -1442,7 +1442,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER BRAUNSCHWEIG",
@@ -1464,11 +1464,11 @@
       "region": "Nicht zugeordnet",
       "area": "Nicht zugeordnet",
       "centerType": "Unbekannt",
-      "activated": 10,
+      "activated": 9,
       "pending": 3,
       "kind": "internal",
-      "total": 13,
-      "rate": 76.9
+      "total": 12,
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER BREMEN-HUCHTING",
@@ -1481,7 +1481,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 5,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER BREMEN-OSTERHOLZ",
@@ -1491,10 +1491,10 @@
       "area": "RL_02",
       "centerType": "Heavy",
       "activated": 5,
-      "pending": 1,
+      "pending": 0,
       "kind": "internal",
-      "total": 6,
-      "rate": 83.3
+      "total": 5,
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER BREMERHAVEN",
@@ -1516,11 +1516,11 @@
       "region": "Süd",
       "area": "RL_09",
       "centerType": "Light",
-      "activated": 5,
+      "activated": 6,
       "pending": 0,
       "kind": "internal",
-      "total": 5,
-      "rate": 100
+      "total": 6,
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER BUCHEN",
@@ -1533,7 +1533,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER BUEHL",
@@ -1546,7 +1546,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER CHEMNITZ-FURTH",
@@ -1559,7 +1559,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER CHEMNITZ-HELBERS.",
@@ -1585,7 +1585,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER DARMSTADT-DIEBURG",
@@ -1598,7 +1598,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 5,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER DARMSTADT-NORD",
@@ -1608,10 +1608,10 @@
       "area": "RL_10",
       "centerType": "Light",
       "activated": 4,
-      "pending": 3,
+      "pending": 2,
       "kind": "internal",
-      "total": 7,
-      "rate": 57.1
+      "total": 6,
+      "rate": 66.7
     },
     {
       "name": "EUROMASTER DEGGENDORF",
@@ -1624,7 +1624,7 @@
       "pending": 4,
       "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER DERCHING",
@@ -1646,11 +1646,11 @@
       "region": "Nord",
       "area": "RL_06",
       "centerType": "Mixed",
-      "activated": 5,
+      "activated": 6,
       "pending": 3,
       "kind": "internal",
-      "total": 8,
-      "rate": 62.5
+      "total": 9,
+      "rate": 66.7
     },
     {
       "name": "EUROMASTER DETMOLD",
@@ -1659,11 +1659,11 @@
       "region": "Nicht zugeordnet",
       "area": "Above Center",
       "centerType": "Unbekannt",
-      "activated": 7,
+      "activated": 8,
       "pending": 0,
       "kind": "internal",
-      "total": 7,
-      "rate": 100
+      "total": 8,
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER DIEBURG",
@@ -1676,7 +1676,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER DINSLAKEN",
@@ -1689,7 +1689,7 @@
       "pending": 8,
       "kind": "internal",
       "total": 10,
-      "rate": 20
+      "rate": 20.0
     },
     {
       "name": "EUROMASTER DORTMUND",
@@ -1715,7 +1715,7 @@
       "pending": 4,
       "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER DUISBURG-NEUENKAMP",
@@ -1763,11 +1763,11 @@
       "region": "Süd",
       "area": "RL_08",
       "centerType": "Light",
-      "activated": 3,
+      "activated": 2,
       "pending": 5,
       "kind": "internal",
-      "total": 8,
-      "rate": 37.5
+      "total": 7,
+      "rate": 28.6
     },
     {
       "name": "EUROMASTER EBINGEN",
@@ -1780,7 +1780,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 5,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER EISENHUTTENSTADT",
@@ -1793,7 +1793,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER EMMERICH",
@@ -1832,7 +1832,7 @@
       "pending": 6,
       "kind": "internal",
       "total": 10,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER ESSEN",
@@ -1845,7 +1845,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER EUTIN",
@@ -1858,7 +1858,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER FLENSBURG",
@@ -1871,7 +1871,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER FRANKFURT AM MAIN-B",
@@ -1880,11 +1880,11 @@
       "region": "Süd",
       "area": "RL_10",
       "centerType": "Light",
-      "activated": 2,
-      "pending": 5,
+      "activated": 1,
+      "pending": 6,
       "kind": "internal",
       "total": 7,
-      "rate": 28.6
+      "rate": 14.3
     },
     {
       "name": "EUROMASTER FRANKFURT AM MAIN-F",
@@ -1894,10 +1894,10 @@
       "area": "RL_10",
       "centerType": "Light",
       "activated": 3,
-      "pending": 10,
+      "pending": 11,
       "kind": "internal",
-      "total": 13,
-      "rate": 23.1
+      "total": 14,
+      "rate": 21.4
     },
     {
       "name": "EUROMASTER FRANKFURT AM MAIN-H",
@@ -1907,10 +1907,10 @@
       "area": "RL_10",
       "centerType": "Light",
       "activated": 5,
-      "pending": 8,
+      "pending": 7,
       "kind": "internal",
-      "total": 13,
-      "rate": 38.5
+      "total": 12,
+      "rate": 41.7
     },
     {
       "name": "EUROMASTER FRANKFURT OFFICE",
@@ -1919,11 +1919,11 @@
       "region": "Nicht zugeordnet",
       "area": "Above Center",
       "centerType": "Unbekannt",
-      "activated": 123,
-      "pending": 5,
+      "activated": 120,
+      "pending": 4,
       "kind": "internal",
-      "total": 128,
-      "rate": 96.1
+      "total": 124,
+      "rate": 96.8
     },
     {
       "name": "EUROMASTER GAIMERSHEIM",
@@ -1932,11 +1932,11 @@
       "region": "Süd",
       "area": "RL_15",
       "centerType": "Heavy",
-      "activated": 4,
-      "pending": 6,
+      "activated": 6,
+      "pending": 4,
       "kind": "internal",
       "total": 10,
-      "rate": 40
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER GARCHING",
@@ -1945,11 +1945,11 @@
       "region": "Süd",
       "area": "RL_15",
       "centerType": "Heavy",
-      "activated": 2,
+      "activated": 3,
       "pending": 5,
       "kind": "internal",
-      "total": 7,
-      "rate": 28.6
+      "total": 8,
+      "rate": 37.5
     },
     {
       "name": "EUROMASTER GELSENKIRCHEN",
@@ -1975,7 +1975,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 10,
-      "rate": 70
+      "rate": 70.0
     },
     {
       "name": "EUROMASTER GOETTINGEN",
@@ -1984,11 +1984,11 @@
       "region": "Nord",
       "area": "RL_05",
       "centerType": "Mixed",
-      "activated": 3,
-      "pending": 4,
+      "activated": 4,
+      "pending": 3,
       "kind": "internal",
       "total": 7,
-      "rate": 42.9
+      "rate": 57.1
     },
     {
       "name": "EUROMASTER GRUENSTADT",
@@ -2027,7 +2027,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER HALBERSTADT",
@@ -2040,7 +2040,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER HALLE SAALE SIL.",
@@ -2088,11 +2088,11 @@
       "region": "Nord",
       "area": "RL_01",
       "centerType": "Mixed",
-      "activated": 8,
-      "pending": 7,
+      "activated": 9,
+      "pending": 6,
       "kind": "internal",
       "total": 15,
-      "rate": 53.3
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER HAMBURG-HAMMERBROOK",
@@ -2101,11 +2101,11 @@
       "region": "Nord",
       "area": "RL_01",
       "centerType": "Light",
-      "activated": 4,
+      "activated": 5,
       "pending": 1,
       "kind": "internal",
-      "total": 5,
-      "rate": 80
+      "total": 6,
+      "rate": 83.3
     },
     {
       "name": "EUROMASTER HAMBURG-LOHBRUEGGE",
@@ -2170,7 +2170,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER HEIDELBERG",
@@ -2196,7 +2196,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER HEILBRONN-LKW",
@@ -2209,7 +2209,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER HESSISCH LICHTENAU",
@@ -2222,7 +2222,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER HILDESHEIM",
@@ -2235,7 +2235,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 3,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER HOLZMINDEN",
@@ -2261,7 +2261,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 2,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER HUERTH",
@@ -2287,7 +2287,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 6,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER KAISERSLAUTERN",
@@ -2300,7 +2300,7 @@
       "pending": 9,
       "kind": "internal",
       "total": 12,
-      "rate": 25
+      "rate": 25.0
     },
     {
       "name": "EUROMASTER KAMEN",
@@ -2339,7 +2339,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER KARLSRUHE",
@@ -2378,7 +2378,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER KIEL",
@@ -2404,7 +2404,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER KOENIGS WUSTER.",
@@ -2417,7 +2417,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER KOLN-EHRENFELD",
@@ -2430,7 +2430,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER KOLN-HOLWEIDE",
@@ -2443,7 +2443,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "EUROMASTER KOLN-WESTHOVEN",
@@ -2456,7 +2456,7 @@
       "pending": 5,
       "kind": "internal",
       "total": 10,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER KOMPLETTRAD ÖSTERREICH",
@@ -2469,7 +2469,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 3,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER KREFELD-BOCKUM",
@@ -2521,7 +2521,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER LANDAU",
@@ -2547,7 +2547,7 @@
       "pending": 4,
       "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER LANGEN",
@@ -2573,7 +2573,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER LEER",
@@ -2599,7 +2599,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER LEIPZIG-NEULINDENAU",
@@ -2612,7 +2612,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER LEIPZIG-SCHONEFELD",
@@ -2625,7 +2625,7 @@
       "pending": 4,
       "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER LINGEN",
@@ -2651,7 +2651,7 @@
       "pending": 4,
       "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER LUDWIGSHAFEN-SUD",
@@ -2690,7 +2690,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 9,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER MAGDEBURG",
@@ -2703,7 +2703,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER MAINZ-EBERSHEIM",
@@ -2716,7 +2716,7 @@
       "pending": 4,
       "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER MAINZ-MOMBACH",
@@ -2755,7 +2755,7 @@
       "pending": 4,
       "kind": "internal",
       "total": 10,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER MANNHEIM-NECKERAU F",
@@ -2781,7 +2781,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 6,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER METTMANN",
@@ -2820,7 +2820,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 11,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER MULHEIM AN DER RUHR",
@@ -2872,7 +2872,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 4,
-      "rate": 25
+      "rate": 25.0
     },
     {
       "name": "EUROMASTER MUNCHEN-SCHWABING",
@@ -2937,7 +2937,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER NEUSS",
@@ -2950,7 +2950,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 5,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER NEUSTADT AN DER W.",
@@ -2963,7 +2963,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 6,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER NEUSTRELITZ",
@@ -2989,7 +2989,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER NORDERSTEDT",
@@ -3002,7 +3002,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER NURNBERG-WERDERAU",
@@ -3041,7 +3041,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER OLDENBURG-ALEXAND.",
@@ -3132,7 +3132,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER PADERBORN",
@@ -3145,7 +3145,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 5,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER PASSAU",
@@ -3158,7 +3158,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER PFAFFENHOFEN",
@@ -3171,7 +3171,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER PFORZHEIM",
@@ -3210,7 +3210,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER RATINGEN",
@@ -3236,7 +3236,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER REMSCHEID",
@@ -3249,7 +3249,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER RENDSBURG",
@@ -3262,7 +3262,7 @@
       "pending": 4,
       "kind": "internal",
       "total": 8,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER RHEINE-ESCHENDORF",
@@ -3275,7 +3275,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER RHEINE-MESUM",
@@ -3288,7 +3288,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER ROSTOCK",
@@ -3340,7 +3340,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 3,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER SAARLOUIS",
@@ -3353,7 +3353,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 5,
-      "rate": 40
+      "rate": 40.0
     },
     {
       "name": "EUROMASTER SAARLOUIS-LKW",
@@ -3366,7 +3366,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER SCHWETZINGEN",
@@ -3392,7 +3392,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER SINGEN",
@@ -3405,7 +3405,7 @@
       "pending": 8,
       "kind": "internal",
       "total": 10,
-      "rate": 20
+      "rate": 20.0
     },
     {
       "name": "EUROMASTER SOLINGEN",
@@ -3444,7 +3444,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 4,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER STADE",
@@ -3457,7 +3457,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 10,
-      "rate": 70
+      "rate": 70.0
     },
     {
       "name": "EUROMASTER STADTBERGEN",
@@ -3483,7 +3483,7 @@
       "pending": 6,
       "kind": "internal",
       "total": 8,
-      "rate": 25
+      "rate": 25.0
     },
     {
       "name": "EUROMASTER STUTTGART-UNTERTUR.",
@@ -3496,7 +3496,7 @@
       "pending": 8,
       "kind": "internal",
       "total": 10,
-      "rate": 20
+      "rate": 20.0
     },
     {
       "name": "EUROMASTER TRIER-RUWER EITELS.",
@@ -3509,7 +3509,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 5,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER TRIER-ZEWEN",
@@ -3535,7 +3535,7 @@
       "pending": 3,
       "kind": "internal",
       "total": 6,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "EUROMASTER ULM",
@@ -3553,7 +3553,7 @@
     {
       "name": "EUROMASTER UNTERSCHLEISSHEIM",
       "sc": "D_744",
-      "state": "Nicht zugeordnet",
+      "state": "Bayern",
       "region": "Süd",
       "area": "RL_15",
       "centerType": "Light",
@@ -3574,7 +3574,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER WALDKIRCH",
@@ -3600,7 +3600,7 @@
       "pending": 6,
       "kind": "internal",
       "total": 8,
-      "rate": 25
+      "rate": 25.0
     },
     {
       "name": "EUROMASTER WARENDORF",
@@ -3613,7 +3613,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 5,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER WEIL AM RHEIN",
@@ -3652,7 +3652,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER WERTHEIM",
@@ -3665,7 +3665,7 @@
       "pending": 1,
       "kind": "internal",
       "total": 5,
-      "rate": 80
+      "rate": 80.0
     },
     {
       "name": "EUROMASTER WESEL",
@@ -3678,7 +3678,7 @@
       "pending": 4,
       "kind": "internal",
       "total": 10,
-      "rate": 60
+      "rate": 60.0
     },
     {
       "name": "EUROMASTER WESTERSTEDE",
@@ -3704,7 +3704,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 6,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER WIESBADEN",
@@ -3730,7 +3730,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 4,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER WUERZBURG-RHOTENB.",
@@ -3756,7 +3756,7 @@
       "pending": 2,
       "kind": "internal",
       "total": 8,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "EUROMASTER WUPPERTAL-LAN-B",
@@ -3769,7 +3769,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 7,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "EUROMASTER WUPPERTAL-LAN-B-LKW",
@@ -3795,7 +3795,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "FahrWerk GmbH – Bayreuth",
@@ -3808,7 +3808,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Fahrzeug Kompetenzzentrum GmbH – Großebersdorf",
@@ -3821,7 +3821,7 @@
       "pending": 2,
       "kind": "partner",
       "total": 2,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Fahrzeug Service Unverzagt – Freiburg",
@@ -3834,7 +3834,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Fahrzeug-Service-Heuzeroth – Freigericht",
@@ -3847,7 +3847,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Fasold Car Service – Reichertshofen",
@@ -3860,7 +3860,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "FiWa KFZ Service und Reifenhandel Erik Wagner e.U. – Mödling",
@@ -3873,7 +3873,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Fleck & Flecker KFZ Fachwerkstatt GmbH – Lieboch",
@@ -3886,7 +3886,7 @@
       "pending": 2,
       "kind": "partner",
       "total": 2,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Frachtspezialist Berthold GmbH – Zwickau",
@@ -3899,7 +3899,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Frahnow GmbH – Cottbus",
@@ -3912,7 +3912,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Franz Auer GmbH & Co. KG – Straubing",
@@ -3925,7 +3925,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Friebe-Autoteile-Fachmarkt – Seesen",
@@ -3938,7 +3938,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Gerd Bauer Motorcenter Ges.m.b.H – Bruck an der Leitha",
@@ -3951,7 +3951,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "GGR Performance – Wertingen",
@@ -3964,7 +3964,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Gummi -Mayer Kempten GmbH & Co. KG – Kempten",
@@ -3977,10 +3977,10 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
-      "name": "Gummi Berger Hans Berger GmbH & Co. KG. – Gummersbach",
+      "name": "Gummi Berger Hans Berger GmbH & Co. KG. – Gummersbach",
       "sc": "D_137-01",
       "state": "Nordrhein-Westfalen",
       "region": "DE",
@@ -4003,7 +4003,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Hammes Reifen- und Autoservice e. K. – Kaisersesch",
@@ -4016,7 +4016,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 2,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "Hans Stadler GmbH – Mauer bei Amstetten",
@@ -4029,7 +4029,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Heinemann Gruppe GmbH – Goslar",
@@ -4042,7 +4042,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Heinemann Gruppe GmbH – Salzgitter",
@@ -4055,7 +4055,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Heinemann Gruppe GmbH – Wernigerode",
@@ -4068,7 +4068,7 @@
       "pending": 2,
       "kind": "partner",
       "total": 2,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Hermann Bunte Auto-Elektrik GmbH – Papenburg",
@@ -4081,7 +4081,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Hessler GesmbH – Neunkirchen",
@@ -4094,7 +4094,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Hessler GesmbH – Olbersdorf",
@@ -4107,7 +4107,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 2,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "Hopp & Paulsen Reifen- und Autoservice GmbH – Burg Auf Fehmarn",
@@ -4120,7 +4120,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "J&P Automotive – Ratingen",
@@ -4133,7 +4133,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Jens Probst Automobile – Crailsheim",
@@ -4146,7 +4146,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Jimmy' s Reifen Center – Reutlingen",
@@ -4159,7 +4159,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "JT Garage GmbH – Mainz-Kastel",
@@ -4172,7 +4172,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "K & P Fahrzeughandels GmbH – Klagenfurt",
@@ -4185,7 +4185,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "KA_RO – Schladming",
@@ -4198,7 +4198,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Karlau GmbH – Engelbrechtsche Wildnis",
@@ -4211,7 +4211,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Karosseriebau Heinz GmbH & Co. KG – Großheide",
@@ -4224,7 +4224,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "KDM Reifenhandel – Mannheim",
@@ -4237,7 +4237,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 2,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "KDM Reifenhandel – Mannheim",
@@ -4250,7 +4250,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Kfz Frömling Lasczyk und Weishaupt GbR – Witten",
@@ -4263,7 +4263,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "KFZ Meisterbetrieb Drive Tech GmbH – Koeln",
@@ -4276,7 +4276,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "KFZ Meisterbetrieb Mohallik – Koeln",
@@ -4289,7 +4289,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Kfz Schmiede GmbH – Tragwein",
@@ -4302,7 +4302,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "KFZ Service Hansen GmbH – Düren",
@@ -4315,7 +4315,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "KFZ Technik Pfeiffer GmbH – Wiener Neustadt",
@@ -4328,7 +4328,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "KFZ Technik Zentrum Lage – Lage",
@@ -4341,7 +4341,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "KFZ und Reifenservice Kloster GmbH – Völklingen",
@@ -4354,7 +4354,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "KFZ Zentrum Bad Bramstedt GmbH – Bad Bramstedt",
@@ -4367,7 +4367,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "KFZ-Frömling Lasczyk und Weishaupt GbR – Bochum",
@@ -4380,7 +4380,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "KFZ-Frömling Lasczyk und Weishaupt GbR – Bochum",
@@ -4393,7 +4393,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Kfz-Meisterbetrieb Jens Wienekamp – Emden",
@@ -4406,7 +4406,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "KFZ-Meisterbetrieb Sven Placküter – Stadland",
@@ -4419,7 +4419,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "KFZ-Spezialisten Team GmbH – Lüneburg",
@@ -4432,7 +4432,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "KFZ-Technik Schuhmann GmbH – Bad Brückenau",
@@ -4445,7 +4445,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "KFZ-Technik Schuhmann GmbH – Salz bei Bad Neustadt",
@@ -4458,7 +4458,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Kfz-Technik Wild – Wilhelmshaven",
@@ -4471,7 +4471,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Klaus Geier KFZ Meisterbetrieb – Neukirchen vorm Wald",
@@ -4484,7 +4484,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "KTS GmbH - KFZ Technik Sennfeld – Sennfeld",
@@ -4497,7 +4497,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Langenbacher GmbH – Villingen-Schwenningen",
@@ -4510,7 +4510,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "LCM Lausitzer Container & Metall GmbH – Großräschen",
@@ -4523,7 +4523,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "M. Schmelzer GmbH – Homburg",
@@ -4536,7 +4536,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "M.Partsch Kraftfahrzeugwerkstättenbetriebe Gesellschaft m.b.H. & Co KG – Bad Fischau-Brunn",
@@ -4549,7 +4549,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "M&Ö Reifen Autoservice GmbH – Wien",
@@ -4562,7 +4562,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Maiers Autowelt – Tuttlingen",
@@ -4575,7 +4575,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "MGM for Netherlands",
@@ -4588,7 +4588,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "MH Auto-u. Motorradtechnik GmbH – Bensheim",
@@ -4601,7 +4601,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Mintgen Motorsport KFZ-Meisterwerkstatt – Mayen",
@@ -4614,7 +4614,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Motorfahrzeuge & Marinetechnik Kamper – Viersen",
@@ -4627,7 +4627,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Müller KFZ & Reifenservice – Kirchheim unter Teck",
@@ -4640,7 +4640,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Mülot Autotechnik Reifen GmbH & Co.KG – Lübz",
@@ -4653,7 +4653,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 4,
-      "rate": 75
+      "rate": 75.0
     },
     {
       "name": "Nicht zugeordnet",
@@ -4666,7 +4666,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 9,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "NR Fahrzeugtechnik – Hausach",
@@ -4679,7 +4679,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "OpenCarBox GmbH – Wien",
@@ -4692,7 +4692,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "OS Fahrzeugtechnik – Geesthacht",
@@ -4705,7 +4705,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Pabla KFZ-Meisterbetrieb GmbH – Anthering",
@@ -4718,7 +4718,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Pascher Nutzfahrzeugreifen GmbH – Bad Tölz",
@@ -4731,7 +4731,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "PBM Fahrzeug- und Reifenservice GmbH – Montabaur",
@@ -4744,7 +4744,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Peter Müller Reifendienst – Herzogenaurach",
@@ -4757,7 +4757,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Pneumaster GmbH – Ludwigsburg",
@@ -4770,7 +4770,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 2,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "Pro Tire Reifen & Autoservice GmbH – Bielefeld",
@@ -4783,7 +4783,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "PRO TYRES Reifen & Felgenhandel OG – Hard",
@@ -4796,7 +4796,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "PROK-RÄDER GMBH – Seubersdorf",
@@ -4809,7 +4809,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "ProLine GmbH – Freudenstadt",
@@ -4822,7 +4822,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Protect Car Aslan Ayhan e.U. – Sollenau",
@@ -4835,7 +4835,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Protire Reifen & Autoservice GmbH – Münster",
@@ -4848,7 +4848,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "PS Autogalerie GmbH – Kirschweiler",
@@ -4861,7 +4861,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "R.S.B. Meisterwerkstatt – Kayhude",
@@ -4874,7 +4874,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "R+R Reifen und Räder GmbH & Co. KG – Hilden",
@@ -4887,7 +4887,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "R+R Reifen und Räder Handelsgesellschaft mbH – Hilden",
@@ -4900,7 +4900,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Rad und Reifen Center Haselier GmbH – Geilenkirchen",
@@ -4913,7 +4913,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Rechberger Reifen GmbH – Nestelbach im Ilztal",
@@ -4926,7 +4926,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Regina Stein Reifenhandel – Gemünden Felda",
@@ -4939,7 +4939,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Reifen & Auto Service Lindenberg – Staßfurt",
@@ -4952,7 +4952,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen & Autoservice Bernd Stroink GmbH – Lohne",
@@ -4965,7 +4965,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Reifen & Autoservice Tucholke OHG – Falkensee",
@@ -4978,7 +4978,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen & KFZ Service Rother – Erlangen",
@@ -4991,7 +4991,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen & Offroad Center Bremen – Bremen",
@@ -5004,7 +5004,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen Dahlke GmbH & Co. KG – Koeln",
@@ -5017,7 +5017,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen Farwick – Ahaus",
@@ -5030,7 +5030,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Reifen Heinzl GmbH – Purkersdorf",
@@ -5043,7 +5043,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen Jais GmbH – Bischofshofen",
@@ -5056,7 +5056,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen Jais GmbH – Hall",
@@ -5069,7 +5069,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen Jais GmbH – Koblach",
@@ -5082,7 +5082,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen Kotinsky GmbH & Co. KG – Andernach",
@@ -5108,7 +5108,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Reifen Kotinsky GmbH & Co. KG – Koblenz",
@@ -5121,7 +5121,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen Kotinsky GmbH & Co. KG – Plaidt",
@@ -5134,7 +5134,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 2,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "Reifen Lubo GmbH – Wien",
@@ -5147,7 +5147,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen M. Fastner GmbH – Sonthofen",
@@ -5160,7 +5160,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Reifen Meyer GmbH – Saarlouis",
@@ -5173,7 +5173,7 @@
       "pending": 2,
       "kind": "partner",
       "total": 2,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen Technik Sezer KG – Wien",
@@ -5186,7 +5186,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen Wiese e.K. – Bretzfeld-Schwabbach",
@@ -5199,7 +5199,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Reifen-Center Vogt GmbH & Co. KG – Witzenhausen",
@@ -5212,7 +5212,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Reifen-Geis GmbH – Sulzbach am Main",
@@ -5225,7 +5225,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Reifen-Service-Center Rest GmbH – Bad Tölz",
@@ -5251,7 +5251,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Reifenservice Quirmbach eK – Zweibrücken",
@@ -5264,7 +5264,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Reifenservice Zimmer – Wiesentheid",
@@ -5277,7 +5277,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Reparaturservice Afschar KG – Appen",
@@ -5290,7 +5290,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "RN Reifen Nord GmbH – Koeln",
@@ -5303,7 +5303,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "RRS Reifen, Räder Schnelldienst GmbH – Hannover",
@@ -5316,7 +5316,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "RTA Hirscher GmbH – St. Martin am Tennengebirge",
@@ -5329,7 +5329,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "RTW Wagner GmbH – Homburg",
@@ -5342,7 +5342,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "SB Reifenservice Sergej Burduzan – Minden",
@@ -5355,7 +5355,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Schmidt & Schmidt GbR – Langenhagen",
@@ -5368,7 +5368,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Sevgi Atabay Autocenter – Ibbenbüren",
@@ -5381,7 +5381,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "SG Reifen und KFZ-Technik GmbH – Graz",
@@ -5394,7 +5394,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "SMG Car – Ahrensburg",
@@ -5407,7 +5407,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "SRT Schreiber – Erfurt",
@@ -5420,7 +5420,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Stone Automobile – Neu Wulmstorf",
@@ -5433,7 +5433,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Stonis Garage GmbH – Talheim",
@@ -5446,7 +5446,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "T.I.N. Reifenhaus GmbH – Wien",
@@ -5459,7 +5459,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "TCS GmbH – Bretten-Gölshausen",
@@ -5472,7 +5472,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Tessmann GbR – Landsberg",
@@ -5485,7 +5485,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Theodor-Heuss-Anlage 12, 68165 Mannheim",
@@ -5498,7 +5498,7 @@
       "pending": 0,
       "kind": "internal",
       "total": 3,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Thomas Frankenberger – Karlstadt-Stetten",
@@ -5511,7 +5511,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "TP Automobil Manufaktur – Gänserndorf",
@@ -5524,7 +5524,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Trelo Truck & Trailer Service – Lahr",
@@ -5537,7 +5537,7 @@
       "pending": 2,
       "kind": "partner",
       "total": 2,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Trelo Truck & Trailer Service – Viersen",
@@ -5550,7 +5550,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     },
     {
       "name": "Waldmüller Reifen und Autoservice GmbH & Co.KG – Denkendorf",
@@ -5563,7 +5563,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Wartelsteiner Autobedarf GmbH – Ramsau im Zillertal",
@@ -5576,7 +5576,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "Werner Brüning GmbH – Ahlhorn",
@@ -5589,7 +5589,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "WW Logistk GmbH – Bad Marienberg",
@@ -5602,7 +5602,7 @@
       "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 100
+      "rate": 100.0
     },
     {
       "name": "WW Logistk GmbH – Wirges",
@@ -5615,7 +5615,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 2,
-      "rate": 50
+      "rate": 50.0
     },
     {
       "name": "WW Reifen – Wirges",
@@ -5628,7 +5628,7 @@
       "pending": 1,
       "kind": "partner",
       "total": 1,
-      "rate": 0
+      "rate": 0.0
     }
   ]
 }
