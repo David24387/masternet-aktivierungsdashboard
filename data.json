@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-09-18",
   "summary": {
     "centers": 432,
-    "total": 2017,
-    "activated": 1280,
-    "pending": 737,
-    "rate": 63.5
+    "total": 2021,
+    "activated": 1300,
+    "pending": 721,
+    "rate": 64.3
   },
   "mapping": {
     "partnerUsers": 278,
@@ -125,11 +125,11 @@
       "region": "AT",
       "area": "Strazdorf",
       "centerType": "Franchise",
-      "activated": 0,
-      "pending": 1,
+      "activated": 1,
+      "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 0.0
+      "rate": 100.0
     },
     {
       "name": "Auto Auer Reifenzentrum GmbH – Wien",
@@ -151,11 +151,11 @@
       "region": "DE",
       "area": "Selingenstadt",
       "centerType": "Mixed",
-      "activated": 0,
-      "pending": 1,
+      "activated": 1,
+      "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 0.0
+      "rate": 100.0
     },
     {
       "name": "Auto Fuchs – Regenstauf",
@@ -333,11 +333,11 @@
       "region": "DE",
       "area": "Lützow",
       "centerType": "Light",
-      "activated": 0,
-      "pending": 2,
+      "activated": 1,
+      "pending": 1,
       "kind": "partner",
       "total": 2,
-      "rate": 0.0
+      "rate": 50.0
     },
     {
       "name": "Autobetriebe Lehmann GmbH – Schwerin",
@@ -671,11 +671,11 @@
       "region": "DE",
       "area": "Lorch",
       "centerType": "Light",
-      "activated": 0,
-      "pending": 2,
+      "activated": 1,
+      "pending": 1,
       "kind": "partner",
       "total": 2,
-      "rate": 0.0
+      "rate": 50.0
     },
     {
       "name": "Autohaus Sorg GmbH – Schwäbisch-Gmünd",
@@ -684,11 +684,11 @@
       "region": "DE",
       "area": "Schwäbisch-Gmünd",
       "centerType": "Light",
-      "activated": 0,
-      "pending": 1,
+      "activated": 1,
+      "pending": 0,
       "kind": "partner",
       "total": 1,
-      "rate": 0.0
+      "rate": 100.0
     },
     {
       "name": "Autohaus Standard RK GmbH – Stockerau",
@@ -1152,11 +1152,11 @@
       "region": "AT",
       "area": "Buchkirchen",
       "centerType": "Franchise",
-      "activated": 0,
-      "pending": 3,
+      "activated": 1,
+      "pending": 2,
       "kind": "partner",
       "total": 3,
-      "rate": 0.0
+      "rate": 33.3
     },
     {
       "name": "Ertugrul Özsevgec Reifenservice – Siegen",
