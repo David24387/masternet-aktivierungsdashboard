@@ -6,6 +6,8 @@
   const score=(a,b)=>{const A=tokens(a),B=tokens(b);if(!A.size||!B.size)return 0;let hit=0;A.forEach(x=>{if(B.has(x))hit++});return hit/Math.max(A.size,B.size)};
   const apply=(c,a,p)=>{c.activated=a;c.pending=p;c.total=a+p;c.rate=c.total?Math.round(a/c.total*1000)/10:0};
   async function merge(base,latest){
+    // Each export is a complete snapshot; do not retain counts from older exports.
+    for(const c of base.centers)apply(c,0,0);
     const internal=new Map(latest.i.map(([n,a,p])=>[norm(n),[a,p]]));
     for(const c of base.centers){if(c.kind==='partner')continue;const hit=internal.get(norm(c.name));if(hit)apply(c,hit[0],hit[1]);}
     const partnerRows=latest.p.map(([name,region,a,p],idx)=>({name,region,a,p,idx,used:false}));
